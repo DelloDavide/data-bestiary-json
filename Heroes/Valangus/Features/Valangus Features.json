@@ -1,8 +1,8 @@
 {
   "type": "featureblock",
-  "featureblock_type": "Malice Features",
-  "name": "Valangus's Malice",
-  "flavor": "At the start of Valangus's turn you can do the following things:",
+  "featureblock_type": "Features",
+  "name": "Valangus's Features",
+  "flavor": "Valangus Has the following features:",
   "features": [
     {
       "type": "feature",

@@ -1,0 +1,20 @@
+{
+  "type": "featureblock",
+  "featureblock_type": "Features",
+  "name": "C'eree's Features",
+  "flavor": "C'eree Has the following features:",
+  "features": [
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Annihilation",
+      "icon": "👤",
+      "cost": "2 Heroic resources",
+      "effects": [
+        {
+          "effect": "C'eree attempts to kill you"
+        }
+      ]
+    }
+  ]
+}

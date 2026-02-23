@@ -1,8 +1,8 @@
 {
   "type": "featureblock",
-  "featureblock_type": "Malice Features",
-  "name": "Degotho's Malice",
-  "flavor": "At the start of Degotho's turn you can do the following things:",
+  "featureblock_type": "Features",
+  "name": "Daron's Features",
+  "flavor": "Daron Has the following features:",
   "features": [
     {
       "type": "feature",
@@ -12,7 +12,7 @@
       "cost": "2 Heroic resources",
       "effects": [
         {
-          "effect": "Degotho attempts to kill you"
+          "effect": "Daron attempts to kill you"
         }
       ]
     }
