@@ -1,0 +1,20 @@
+{
+  "type": "featureblock",
+  "featureblock_type": "Features",
+  "name": "Un Cavaliere's Features",
+  "flavor": "Un Cavaliere Has the following features:",
+  "features": [
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Bloodthirst",
+      "icon": "🏹",
+      "cost": "5 Heroic resources",
+      "effects": [
+        {
+          "effect": "Un Cavaliere attempts to Destroy you"
+        }
+      ]
+    }
+  ]
+}

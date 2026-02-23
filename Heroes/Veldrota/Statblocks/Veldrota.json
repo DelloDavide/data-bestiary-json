@@ -1,0 +1,75 @@
+{
+  "type": "statblock",
+  "name": "Veldrota",
+  "level": 4,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "10",
+  "stamina": "54",
+  "speed": 6,
+  "movement": "Walk",
+  "size": "1M",
+  "stability": 3,
+  "free_strike": 11,
+  "might": 5,
+  "agility": 4,
+  "reason": 5,
+  "intuition": 5,
+  "presence": 4,
+  "features": [
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Veldrota",
+      "icon": "☠️",
+      "effects": [
+        {
+          "name": "Veldrota Turns",
+          "effect": "Veldrota takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three triggered actions in a round while he isn't dazed."
+        },
+        {
+          "name": "End Effect",
+          "effect": "At the end of each of his turns, Veldrota can take 20 damage to end up to two effects on him that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Blade of the Gol King",
+      "icon": "🗡",
+      "ability_type": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Magic",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main Action",
+      "distance": "Melee 1",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "tier1": "16 damage; M < 4 the target loses 1d3 Recoveries",
+          "tier2": "22 damage; M < 5 the target loses 1d3 Recoveries",
+          "tier3": "26 damage; M < 6 prone and the target loses 1d3 Recoveries"
+        },
+        {
+          "name": "Effect",
+          "effect": "Veldrota shifts up to 2 squares between striking each target."
+        },
+        {
+          "cost": "1+ Malice",
+          "effect": "Veldrota can strike one additional target for each Malice spent."
+        }
+      ]
+    }
+  ]
+}
