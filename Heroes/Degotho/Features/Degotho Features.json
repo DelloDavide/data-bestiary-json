@@ -6,13 +6,130 @@
   "features": [
     {
       "type": "feature",
-      "feature_type": "trait",
-      "name": "Annihilation",
-      "icon": "👤",
-      "cost": "2 Heroic resources",
+      "feature_type": "Fury Feature",
+      "name": "Mighty Leaps",
+      "icon": "🦘",
+      "cost": "",
       "effects": [
         {
-          "effect": "Degotho attempts to kill you"
+          "effect": "You can’t obtain lower than a tier 2 outcome on any Might test made to jump."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Aspect Feature",
+      "name": "Primordial Strength",
+      "icon": "💪",
+      "cost": "",
+      "effects": [
+        {
+          "effect": "Whenever you damage an object with a weapon strike, the strike deals extra damage equal to your Might score. Additionally, whenever you push another creature into an object, the creature takes extra damage equal to your Might score."
+        },
+        {
+          "effect": "As your ferocity grows, you gain benefits as noted on the Berserker Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit."
+        },
+        {
+          "effect": "Ferocity 2: Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Might score."
+        },
+        {
+          "effect": "Ferocity 4: The first time you push a creature on a turn, you gain 1 surge."
+        },
+        {
+          "effect": "Ferocity 6: You gain an edge on Might tests and the Knockback maneuver."
+        },
+        {
+          "effect": "Ferocity 8: The first time you push a creature on a turn, you gain 2 surges."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Perk",
+      "name": "Team Leader",
+      "icon": "👨‍💼",
+      "cost": "",
+      "effects": [
+        {
+          "effect": "At the start of a group test or montage test, you can spend a hero token. If you do, all participants make tests as if they also had any skill you have from the exploration group."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Aspect Feature",
+      "name": "Unstoppable Force",
+      "icon": "❌🚫",
+      "cost": "",
+      "effects": [
+        {
+          "effect": "Whenever you use the Charge main action, you can use a strike signature ability or a strike heroic ability instead of a free strike. Additionally, you can jump as part of your charge."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Perk",
+      "name": "Travelling Artisan (Works like the old Homesteader)",
+      "icon": "🚶👨‍🔧",
+      "cost": "",
+      "effects": [
+        {
+          "effect": "You gain an artisan follower, in addition to followers you acquire through renown or other means."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Aspect Feature",
+      "name": "Immovable Object",
+      "icon": "❌🧱",
+      "cost": "",
+      "effects": [
+        {
+          "effect": "You add your level (4) to your effective size for the purpose of interacting with creatures and objects, including determining whether you can lift an object, are affected by forced movement, and so forth. This has no effect on whether you can be grabbed."
+        },
+        {
+          "effect": "Additionally, you have a bonus to stability equal to your Might score."
+        },
+        {
+          "effect": "+1 Push to any creature smaller than me (pag 271) with a Melee Weapon Ability"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Perk",
+      "name": "Inspired Artisan",
+      "icon": "💡👨‍🔧",
+      "cost": "",
+      "effects": [
+        {
+          "effect": "When you make a project roll using a skill from the crafting skill group, you can spend a hero token to make another project roll for the same project as part of the same respite activity. You can’t use this perk more than once per respite."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Aspect Feature",
+      "name": "Primordial Attunement",
+      "icon": "🌌🧘‍♀️",
+      "cost": "",
+      "effects": [
+        {
+          "effect": "As your ferocity manifests elemental forces created by the Primordial Chaos, you are aware of how elemental power interacts with those around you. You automatically sense whether any creature within 10 squares has damage immunity or damage weakness to acid, cold, corruption, fire, lightning, poison, or sonic damage, learning whether they have immunity or weakness, the value of that immunity or weakness, and the specific damage type. Additionally, you automatically sense any source of one of those damage types within 10 squares, such as a fire or a source of elemental power."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Aspect Feature",
+      "name": "Primordial Strike",
+      "icon": "🌌💥",
+      "cost": "",
+      "effects": [
+        {
+          "effect": "You can manifest your ferocity directly as an elemental force created by the Primordial Chaos. As part of any strike, you can spend 1 ferocity to gain 1 surge that must be used for that strike. The extra damage dealt by the surge can be acid, cold, corruption, fire, lightning, poison, or sonic (your choice)."
         }
       ]
     }
