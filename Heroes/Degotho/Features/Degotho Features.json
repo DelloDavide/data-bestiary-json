@@ -12,7 +12,7 @@
       "cost": "",
       "effects": [
         {
-          "effect": "You can’t obtain lower than a tier 2 outcome on any Might test made to jump."
+          "effect": "You can’t obtain lower than a tier 2 outcome on any **Might test** made to jump."
         }
       ]
     },
@@ -36,7 +36,7 @@
           "effect": "Ferocity 4: The first time you push a creature on a turn, you gain 1 surge."
         },
         {
-          "effect": "Ferocity 6: You gain an edge on Might tests and the Knockback maneuver."
+          "effect": "Ferocity 6: You gain an edge on **Might tests** and the Knockback maneuver."
         },
         {
           "effect": "Ferocity 8: The first time you push a creature on a turn, you gain 2 surges."

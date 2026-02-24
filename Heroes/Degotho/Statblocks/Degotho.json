@@ -14,7 +14,10 @@
   "ev": "72",
   "stamina": "54",
   "speed": 6,
-  "movement": "Walk",
+  "immunities": [
+    "Corruption 4",
+    "Lightning 4"
+  ],
   "size": "1M",
   "stability": 3,
   "free_strike": 0,
@@ -176,7 +179,7 @@
       "target": "1 creature",
       "effects": [
         {
-          "name": "Effect:",
+          "name": "Effect",
           "effect": "If the target is not a leader or solo creature, they are reduced to 0 Stamina at the end of their next turn."
         },
         {
@@ -218,7 +221,7 @@
           "effect": "You can select a new target of the same size or smaller within distance to be force moved instead. You become the source of the forced movement, determine the new target’s destination, and can push the target instead of using the original forced movement type. Additionally, the forced movement distance gains a bonus equal to your Might score."
         },
         {
-          "name": "Spend 1 Ferocity:",
+          "name": "Spend 1 Ferocity",
           "effect": "The forced movement distance gains a bonus equal to twice your Might score instead."
         }
       ]
