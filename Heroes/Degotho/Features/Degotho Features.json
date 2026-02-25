@@ -132,6 +132,42 @@
           "effect": "You can manifest your ferocity directly as an elemental force created by the Primordial Chaos. As part of any strike, you can spend 1 ferocity to gain 1 surge that must be used for that strike. The extra damage dealt by the surge can be acid, cold, corruption, fire, lightning, poison, or sonic (your choice)."
         }
       ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Zombie Slayer - Blessed Weapons",
+      "icon": "🧟⚔️✨",
+      "cost": "",
+      "effects": [
+        {
+          "effect": "When you use an ability that deals damage that has no type, you can deal holy damage instead."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Ratcatcher - Death From Above",
+      "icon": "🐀⬆️💀",
+      "cost": "",
+      "effects": [
+        {
+          "effect": "Death From Above: You gain a +3 damage bonus to strikes against creatures whose size is smaller than yours."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Unstoppable - Furious Charge",
+      "icon": "❌💥🔥",
+      "cost": "",
+      "effects": [
+        {
+          "effect": "When you use the Charge action, your strike made as part of that action gains a damage bonus equal to the number of squares you moved as part of the charge."
+        }
+      ]
     }
   ]
 }
