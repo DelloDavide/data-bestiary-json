@@ -3,71 +3,67 @@
   "name": "Un Cavaliere",
   "level": 4,
   "roles": [
-    "Solo"
+    "Retainer"
   ],
   "ancestry": [
-    "Human",
-    "Humanoid"
+    "Memonek",
+    "Censor"
   ],
-  "ev": "10",
-  "stamina": "54",
-  "speed": 6,
-  "movement": "Walk",
+  "ev": "72",
+  "stamina": "48",
+  "speed": 5,
+  "immunities": [
+    "Corruption 2",
+    "Holy 2"
+  ],
   "size": "1M",
-  "stability": 3,
-  "free_strike": 11,
-  "might": 5,
-  "agility": 4,
-  "reason": 5,
-  "intuition": 5,
-  "presence": 4,
+  "stability": 1,
+  "free_strike": 6,
+  "might": 2,
+  "agility": 1,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 3,
   "features": [
     {
       "type": "feature",
-      "feature_type": "trait",
-      "name": "Un Cavaliere",
-      "icon": "☠️",
+      "feature_type": "ability",
+      "name": "Sword of Justice ",
+      "icon": "⚔️⚖️",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main Action (Signature)",
+      "distance": "Melee 1",
+      "target": "1 creature",
       "effects": [
         {
-          "name": "Un Cavaliere Turns",
-          "effect": "Un Cavaliere takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three triggered actions in a round while he isn't dazed."
+          "roll": "Power Roll: 2d10 + 3",
+          "tier1": "8 damage",
+          "tier2": "12 damage",
+          "tier3": "15 damage"
         },
         {
-          "name": "End Effect",
-          "effect": "At the end of each of his turns, Un Cavaliere can take 20 damage to end up to two effects on him that can be ended by a saving throw. This damage can't be reduced in any way."
+          "effect": "When a non-minion target is reduced to 0 Stamina by this Strike, it gains 1 surge."
         }
       ]
     },
     {
       "type": "feature",
       "feature_type": "ability",
-      "name": "Blade of the Gol King",
-      "icon": "🗡",
-      "ability_type": "Signature Ability",
+      "name": "War Doctor",
+      "icon": "⚔️🩺",
       "keywords": [
-        "Charge",
-        "Magic",
-        "Melee",
-        "Strike",
-        "Weapon"
+        "Melee"
       ],
-      "usage": "Main Action",
+      "usage": "Maneuver",
       "distance": "Melee 1",
-      "target": "Two creatures or objects",
+      "target": "Self or one Ally",
       "effects": [
         {
-          "roll": "Power Roll + 5",
-          "tier1": "16 damage; M < 4 the target loses 1d3 Recoveries",
-          "tier2": "22 damage; M < 5 the target loses 1d3 Recoveries",
-          "tier3": "26 damage; M < 6 prone and the target loses 1d3 Recoveries"
-        },
-        {
-          "name": "Effect",
-          "effect": "Un Cavaliere shifts up to 2 squares between striking each target."
-        },
-        {
-          "cost": "1+ Malice",
-          "effect": "Un Cavaliere can strike one additional target for each Malice spent."
+          "effect": "The target spends a Recovery, and power rolls against the target suffer a bane until the start of the Retainer's next turn."
         }
       ]
     }
