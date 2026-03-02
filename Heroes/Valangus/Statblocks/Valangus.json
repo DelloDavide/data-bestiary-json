@@ -3,13 +3,15 @@
   "name": "Valangus",
   "level": 4,
   "roles": [
-    "Solo"
+    "Hero"
   ],
   "ancestry": [
-    "Human",
-    "Humanoid"
+    "Human", 
+    "Tactician", 
+    "Vanguard", 
+    "Laborer"
   ],
-  "ev": "10",
+  "ev": "72",
   "stamina": "54",
   "speed": 6,
   "movement": "Walk",
@@ -24,50 +26,24 @@
   "features": [
     {
       "type": "feature",
-      "feature_type": "trait",
-      "name": "Valangus",
-      "icon": "☠️",
-      "effects": [
-        {
-          "name": "Valangus Turns",
-          "effect": "Valangus takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three triggered actions in a round while he isn't dazed."
-        },
-        {
-          "name": "End Effect",
-          "effect": "At the end of each of his turns, Valangus can take 20 damage to end up to two effects on him that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "type": "feature",
       "feature_type": "ability",
-      "name": "Blade of the Gol King",
-      "icon": "🗡",
-      "ability_type": "Signature Ability",
+      "name": "Free Strike (Melee)",
+      "icon": "⚔️💥",
       "keywords": [
         "Charge",
-        "Magic",
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action",
+      "usage": "Free Strike",
       "distance": "Melee 1",
-      "target": "Two creatures or objects",
+      "target": "1 creature or object",
       "effects": [
         {
-          "roll": "Power Roll + 5",
-          "tier1": "16 damage; M < 4 the target loses 1d3 Recoveries",
-          "tier2": "22 damage; M < 5 the target loses 1d3 Recoveries",
-          "tier3": "26 damage; M < 6 prone and the target loses 1d3 Recoveries"
-        },
-        {
-          "name": "Effect",
-          "effect": "Valangus shifts up to 2 squares between striking each target."
-        },
-        {
-          "cost": "1+ Malice",
-          "effect": "Valangus can strike one additional target for each Malice spent."
+          "roll": "Power Roll + 3:",
+          "tier1": "8 damage",
+          "tier2": "11 damage",
+          "tier3": "13 damage"
         }
       ]
     }

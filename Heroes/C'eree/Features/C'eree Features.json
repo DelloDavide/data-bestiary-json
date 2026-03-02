@@ -7,12 +7,11 @@
     {
       "type": "feature",
       "feature_type": "trait",
-      "name": "Annihilation",
+      "name": "Stuff",
       "icon": "👤",
-      "cost": "2 Heroic resources",
       "effects": [
         {
-          "effect": "C'eree attempts to kill you"
+          "effect": "C'eree Does Stuff"
         }
       ]
     }
