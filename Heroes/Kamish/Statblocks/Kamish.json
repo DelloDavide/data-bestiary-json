@@ -42,7 +42,7 @@
       "target": "One creature or object",
       "effects": [
         {
-          "roll": "Power Roll: 2d10 + 3",
+          "roll": "Power Roll + 3:",
           "tier1": "5 fire damage",
           "tier2": "9 fire damage",
           "tier3": "12 fire damage; A < 3 The target is on fire (save ends)."
@@ -70,7 +70,7 @@
           "effect": "You can use this ability only once per encounter."
         },
         {
-          "roll": "Power Roll: 2d10 + 3",
+          "roll": "Power Roll + 3:",
           "tier1": "5 damage; push 2",
           "tier2": "7 damage; push 3",
           "tier3": "11 damage; push 5"

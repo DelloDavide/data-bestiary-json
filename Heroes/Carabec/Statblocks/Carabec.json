@@ -38,7 +38,7 @@
       "target": "One creature or object",
       "effects": [
         {
-          "roll": "Power Roll: 2d10 + 3",
+          "roll": "Power Roll + 3:",
           "tier1": "6 damage",
           "tier2": "10 damage",
           "tier3": "13 damage"

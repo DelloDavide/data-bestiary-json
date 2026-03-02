@@ -42,7 +42,7 @@
       "target": "1 creature or object",
       "effects": [
         {
-          "roll": "Power Roll: 2d10 + 3",
+          "roll": "Power Roll + 3:",
           "tier1": "9 damage; push 1",
           "tier2": "12 damage; push 2",
           "tier3": "15 damage; push 4"
@@ -63,7 +63,7 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "roll": "Power Roll: 2d10 + 3",
+          "roll": "Power Roll + 3:",
           "tier1": "2 damage",
           "tier2": "5 damage; push 1",
           "tier3": "7 damage; push 2"
@@ -85,7 +85,7 @@
       "target": "1 creature",
       "effects": [
         {
-          "roll": "Power Roll: 2d10 + 3",
+          "roll": "Power Roll + 3:",
           "tier1": "8 damage; A < 1 slowed (EoT)",
           "tier2": "10 damage; A < 2 slowed (EoT)",
           "tier3": "12 damage; A < 3 restrained (EoT)"
@@ -108,7 +108,7 @@
       "target": "1 creature or object",
       "effects": [
         {
-          "roll": "Power Roll: 2d10 + 3",
+          "roll": "Power Roll + 3:",
           "tier1": "8 damage; M < 1 bleeding (save ends)",
           "tier2": "10 damage; M < 2 bleeding (save ends)",
           "tier3": "12 damage; M < 3 bleeding (save ends)"
@@ -156,7 +156,7 @@
           "effect": "Additionally, you make one power roll that targets each enemy you move adjacent to during this movement."
         },
         {
-          "roll": "Power Roll: 2d10 + 3",
+          "roll": "Power Roll + 3:",
           "tier1": "Push 1",
           "tier2": "Push 2",
           "tier3": "Push 3"
@@ -242,7 +242,7 @@
       "target": "1 creature or object",
       "effects": [
         {
-          "roll": "Power Roll: 2d10 + 3",
+          "roll": "Power Roll + 3:",
           "tier1": "8 damage",
           "tier2": "11 damage",
           "tier3": "13 damage"
@@ -264,7 +264,7 @@
       "target": "1 creature or object",
       "effects": [
         {
-          "roll": "Power Roll: 2d10 + 3",
+          "roll": "Power Roll + 3:",
           "tier1": "5 damage",
           "tier2": "7 damage",
           "tier3": "9 damage"

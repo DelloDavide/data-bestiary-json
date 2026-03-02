@@ -6,7 +6,7 @@
   "features": [
   {
       "type": "feature",
-      "feature_type": "Trait",
+      "feature_type": "trait",
       "name": "Divine Punishment",
       "icon": "⚡⚖️",
       "effects": [

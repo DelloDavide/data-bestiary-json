@@ -40,7 +40,7 @@
       "target": "1 creature",
       "effects": [
         {
-          "roll": "Power Roll: 2d10 + 3",
+          "roll": "Power Roll + 3:",
           "tier1": "8 damage",
           "tier2": "12 damage",
           "tier3": "15 damage"
