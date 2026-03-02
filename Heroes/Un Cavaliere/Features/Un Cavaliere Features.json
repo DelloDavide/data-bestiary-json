@@ -9,7 +9,6 @@
       "feature_type": "Trait",
       "name": "Divine Punishment",
       "icon": "⚡⚖️",
-      "cost": "",
       "effects": [
         {
           "effect": "You can choose to inflict Holy Damage with your abilities."

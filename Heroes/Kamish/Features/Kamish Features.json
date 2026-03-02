@@ -7,12 +7,11 @@
     {
       "type": "feature",
       "feature_type": "trait",
-      "name": "Bloodthirst",
-      "icon": "🏹",
-      "cost": "5 Heroic resources",
+      "name": "The Fire Within",
+      "icon": "🔥❤️",
       "effects": [
         {
-          "effect": "Kamish attempts to Destroy you"
+          "effect": "When Kamish reaches 0 Stamina and when he dies, his flaming heart beats, releasing flames all around him. Each enemy adjacent to Kamish takes fire damage equal to his level."
         }
       ]
     }

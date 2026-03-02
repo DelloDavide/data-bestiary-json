@@ -3,71 +3,80 @@
   "name": "Kamish",
   "level": 4,
   "roles": [
-    "Solo"
+    "Retainer"
   ],
   "ancestry": [
-    "Human",
-    "Humanoid"
+    "Dragon", 
+    "Elemental", 
+    "Artillery", 
+    "Mount"
   ],
-  "ev": "10",
-  "stamina": "54",
+  "ev": "72",
+  "stamina": "48",
   "speed": 6,
-  "movement": "Walk",
+  "movement": "Fly",
+  "immunities": [
+    "Fire 4"
+  ],
   "size": "1M",
-  "stability": 3,
-  "free_strike": 11,
-  "might": 5,
-  "agility": 4,
-  "reason": 5,
-  "intuition": 5,
-  "presence": 4,
+  "stability": 0,
+  "free_strike": 5,
+  "might": 0,
+  "agility": 1,
+  "reason": 0,
+  "intuition": 2,
+  "presence": 3,
   "features": [
     {
       "type": "feature",
-      "feature_type": "trait",
-      "name": "Kamish",
-      "icon": "☠️",
+      "feature_type": "ability",
+      "name": "Scorching Breath",
+      "icon": "🔥🌬️",
+      "keywords": [
+        "Melee",
+        "Ranged",
+        "Strike"
+      ],
+      "usage": "Main Action (Signature)",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
       "effects": [
         {
-          "name": "Kamish Turns",
-          "effect": "Kamish takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three triggered actions in a round while he isn't dazed."
+          "roll": "Power Roll: 2d10 + 3",
+          "tier1": "5 fire damage",
+          "tier2": "9 fire damage",
+          "tier3": "12 fire damage; A < 3 The target is on fire (save ends)."
         },
         {
-          "name": "End Effect",
-          "effect": "At the end of each of his turns, Kamish can take 20 damage to end up to two effects on him that can be ended by a saving throw. This damage can't be reduced in any way."
+          "effect": "A creature that is on fire takes 1d6 fire damage at the start of each of its turns. An object that is on fire takes 1d6 fire damage at the start of each round."
         }
       ]
     },
     {
       "type": "feature",
       "feature_type": "ability",
-      "name": "Blade of the Gol King",
-      "icon": "🗡",
-      "ability_type": "Signature Ability",
+      "name": "Elemental Explosion",
+      "icon": "🔥🌊🌪️🌱⚡💥",
       "keywords": [
-        "Charge",
+        "Area",
         "Magic",
-        "Melee",
-        "Strike",
-        "Weapon"
+        "Ranged"
       ],
-      "usage": "Main Action",
-      "distance": "Melee 1",
-      "target": "Two creatures or objects",
+      "usage": "Main Action (Signature)",
+      "distance": "3 Cube Within 10",
+      "target": "Each creature in the area",
       "effects": [
         {
-          "roll": "Power Roll + 5",
-          "tier1": "16 damage; M < 4 the target loses 1d3 Recoveries",
-          "tier2": "22 damage; M < 5 the target loses 1d3 Recoveries",
-          "tier3": "26 damage; M < 6 prone and the target loses 1d3 Recoveries"
+          "effect": "You can use this ability only once per encounter."
         },
         {
-          "name": "Effect",
-          "effect": "Kamish shifts up to 2 squares between striking each target."
+          "roll": "Power Roll: 2d10 + 3",
+          "tier1": "5 damage; push 2",
+          "tier2": "7 damage; push 3",
+          "tier3": "11 damage; push 5"
         },
         {
-          "cost": "1+ Malice",
-          "effect": "Kamish can strike one additional target for each Malice spent."
+          "effect": "When using this ability, you can choose which type of damage to inflict from the following: acid, cold, fire, lightning, poison, or sonic."
         }
       ]
     }

@@ -1,12 +1,12 @@
 {
   "type": "statblock",
-  "name": "Veldrota",
+  "name": "Carabec",
   "level": 4,
   "roles": [
     "Retainer"
   ],
   "ancestry": [
-    "Shadow Elf", 
+    "Sovaly", 
     "Ambusher"
   ],
   "ev": "72",
