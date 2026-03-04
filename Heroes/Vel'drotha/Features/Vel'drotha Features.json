@@ -1,8 +1,8 @@
 {
   "type": "featureblock",
   "featureblock_type": "Features",
-  "name": "Veldrota's Features",
-  "flavor": "Veldrota Has the following features:",
+  "name": "Vel'drotha's Features",
+  "flavor": "Vel'drotha Has the following features:",
   "features": [
   {
       "type": "feature",
