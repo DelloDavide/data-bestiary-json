@@ -12,18 +12,247 @@
     "Warden"
   ],
   "ev": "72",
-  "stamina": "54",
-  "speed": 6,
-  "movement": "Walk",
+  "stamina": "48",
+  "speed": 8,
+  "immunities": [
+    "Psychic 4"
+  ],
+  "movement": "Walk, Disengage 4",
   "size": "1M",
-  "stability": 3,
+  "stability": 0,
   "free_strike": 11,
-  "might": 5,
-  "agility": 4,
-  "reason": 5,
-  "intuition": 5,
-  "presence": 4,
+  "might": 1,
+  "agility": 3,
+  "reason": 1,
+  "intuition": 3,
+  "presence": -1,
   "features": [
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Phase Inversion Strike",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Melee",
+        "Psionic",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main Action (Signature)",
+      "distance": "Melee 1",
+      "target": "1 creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "8 damage; push 2",
+          "tier2": "10 damage; push 4",
+          "tier3": "12 damage; push 6"
+        },
+        {
+          "effect": "Before the push is resolved, you teleport the target to a square adjacent to you and opposite the one they started in. If the target can't be teleported this way, you can't push them."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Inertial Step",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Melee",
+        "Psionic",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main Action (Signature)",
+      "distance": "Melee 1",
+      "target": "1 creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "9 damage",
+          "tier2": "11 damage",
+          "tier3": "14 damage"
+        },
+        {
+          "effect": "You can shift up to half your speed before or after you make the strike."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Null Field",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Area",
+        "Psionic"
+      ],
+      "usage": "Maneuver",
+      "distance": "Aura 1",
+      "target": "All enemies",
+      "effects": [
+        {
+          "effect": "Each target reduces their potencies by 1. \n\nOnce as a free maneuver on each of you turns, you can spend 1 discipline and give your Null Field one of the following additional effects until the start of your next turn: \n-Gravitic Disruption: The first time on a turn that a target takes damage, you can slide them up to 2 squares. \n-Inertial Anchor: Any target who starts their turn in the area can't shift. \n-Synapic Break: Whenever you or an ally uses an ability against a target that has a potency effect, the potency is increased by 1. \n\nThis ability remains active even after an encounter ends. It ends only if you are dying or if you willingly end it (no action required). \n\nEnhanced Null Field: \nDuring combat, any temporary supernatural terrain effects of your level or lower are removed when your aura partially or fully overlaps with their location. Permanent supernatural terrain effects of your level or lower are temporarily negated while your aura overlaps with their location, but return when the aura no longer overlaps with them."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Chronal Spike",
+      "icon": "⚔️💥",
+      "cost": "3 Discipline",
+      "keywords": [
+        "Melee",
+        "Psionic",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main Action",
+      "distance": "Melee 1",
+      "target": "1 creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "11 damage",
+          "tier2": "14 damage",
+          "tier3": "17 damage"
+        },
+        {
+          "effect": "You can shift up to half your speed before or after you make this strike. Additionally, whenever an effect lets you make a free strike or use a signature ability, you can use this ability instead, paying its discipline cost as usual."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Arcane Disruptor",
+      "icon": "⚔️💥",
+      "cost": "5 Discipline",
+      "keywords": [
+        "Melee",
+        "Psionic",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main Action",
+      "distance": "Melee 1",
+      "target": "1 creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "12 psychic damage; M < 1 weakened (save ends)",
+          "tier2": "16 psychic damage; M < 2 weakened (save ends)",
+          "tier3": "20 psychic damage; M < 3 weakened (save ends)"
+        },
+        {
+          "effect": "While weakened this way, the target takes damage equal to your Intuition score whenever they use a supernatural ability that costs Malice."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Kinetic Shield",
+      "icon": "⚔️💥",
+      "cost": "5 Discipline",
+      "keywords": [
+        "Psionic"
+      ],
+      "usage": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "You gain 10 temporary Stamina",
+          "tier2": "You gain 15 temporary Stamina",
+          "tier3": "You gain 20 temporary Stamina"
+        },
+        {
+          "effect": "While you have temporary Stamina from this ability, you can't be made bleeding even while dying."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Molecular Rearrangement Field",
+      "icon": "⚔️💥",
+      "cost": "7 Discipline",
+      "keywords": [
+        "Psionic"
+      ],
+      "usage": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way, each enemy who has I < 2 (Average) and enters the area for the first time in a combat round or starts their turn there is bleeding (save ends). Each ally who enters the area for the first time on a combat round or starts their turn there gains temporary Stamina equal to your Intuition score."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Reorder",
+      "icon": "⚔️💥",
+      "keywords": [
+      ],
+      "usage": "Free Triggered Action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "You start your turn.",
+      "effects": [
+        {
+          "effect": "End one effect on you that is ended by a saving throw or that ends at the end of your turn. Alternatively, you can grant this benefit to one creature in the area of your Null Field ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Inertial Shield",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Psionic"
+      ],
+      "usage": "Triggered Action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "You take damage.",
+      "effects": [
+        {
+          "effect": "You halve the damage."
+        },
+        {
+          "name": "Spend 1 Discipline:",
+          "effect": "The potency of one effect associated with the damage is reduced by 1 for you."
+        },
+        {
+          "name": "Metakinetic Mastery:",
+          "effect": "Whenever you use your Inertial Shield ability, you can then use the Knockback maneuver as a free triggered action."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Foresight",
+      "icon": "⚔️💥",
+      "keywords": [
+      ],
+      "usage": "Triggered Action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "You are targeted with a strike",
+      "effects": [
+        {
+          "effect": "You impose a bane on the power roll."
+        }
+      ]
+    },
     {
       "type": "feature",
       "feature_type": "ability",
@@ -41,9 +270,31 @@
       "effects": [
         {
           "roll": "Power Roll + 3:",
-          "tier1": "8 damage",
-          "tier2": "11 damage",
-          "tier3": "13 damage"
+          "tier1": "5 damage",
+          "tier2": "8 damage",
+          "tier3": "10 damage"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Free Strike (Ranged)",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Free Strike",
+      "distance": "Ranged 5",
+      "target": "1 creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "5 damage",
+          "tier2": "7 damage",
+          "tier3": "9 damage"
         }
       ]
     }

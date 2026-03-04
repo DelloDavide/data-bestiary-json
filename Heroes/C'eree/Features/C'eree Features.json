@@ -6,12 +6,145 @@
   "features": [
     {
       "type": "feature",
-      "feature_type": "trait",
-      "name": "Stuff",
+      "feature_type": "Null Feature",
+      "name": "Psionic Leap",
       "icon": "👤",
       "effects": [
         {
-          "effect": "C'eree Does Stuff"
+          "effect": "You can long jump and high jump a distance equal to twice your Agility score without needing to make a test."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Null Feature",
+      "name": "Psionic Martial Arts",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Whenever you use the Knockback or Grab maneuver, you use Intuition instead of Might for the power roll and for determining if you can target creatures larger than you. Additionally, whenever you use the Knockback maneuver, you can choose to slide the target instead of pushing them."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Null Feature",
+      "name": "Metakinetic Mastery",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "As your discipline grows, your psionic potential is amplified, granting benefits from the Metakinetic Mastery table. Benefits are cumulative except where an improved benefit replaces a lesser benefit."
+        },
+        {
+          "effect": "Discipline 2: Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Intuition score."
+        },
+        {
+          "effect": "Discipline 4: The first time in a combat round that you take damage or are force moved, you gain 1 surge, even if you resist the effect."
+        },
+        {
+          "effect": "Discipline 6: You gain an edge on the Grab and Knock maneuvers."
+        },
+        {
+          "effect": "Discipline 8: The first time in a combat round that you take damage or are force moved, you gain 2 surges, even if you resist the effect."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Null Feature",
+      "name": "Inertial Sink",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "You add your Intuition score to your effective size for the purpose of interacting with creatures and objects, such as for determining whether you can lift an object, whether you are affected by forced movement, and so forth. This has no effect on whether you can be grabbed. \n\nAdditionally, when you fall, you reduce the effective height of the fall by 5 squares in addition to any other reductions. Whenever you take damage from being force moved, you reduce the damage by an amount equal to your level."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Null Feature",
+      "name": "Foresight",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "You automatically know the location of any creature with concealment who isn't hidden from you within 20, and you negate the usual bane on strikes against such creatures. Additionally, whenever you are targeted by a strike, you can use a triggered action to impose a bane on the power roll."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Null Feature",
+      "name": "Four-Armed Martial Arts",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Your multiple arms let you take on multiple tasks at the same time. Whenever you use the Grab or Knockback maneuver against an adjacent creature, you can target one additional adjacent creature, using the same power roll for both targets. Additionally, you can have up to two creatures grabbed at a time."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Perk",
+      "name": "Wood Wise",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "When you make a test using a skill from the exploration skill group and at least one of the d10s rolled is a 1, you can reroll one d10. You can use this perk only once per test."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Perk",
+      "name": "Slipped Lead",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "You gain an edge on tests made to escape bonds. Given 1 uninterrupted minute, you can escape any mundane bonds without making a test. Additionally, it's not immediately obvious when you've escaped bonds until you do something that makes it clear you have done so."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Perk",
+      "name": "Charming Liar",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "If you fail a test using the Lie skill, you don't suffer any consequences associated with the failure. Additionally, during a negotiation, you can be caught in one line without negative consequences. When you use either benefit of this perk, you can't use this perk again until you earn 1 or more Victories."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Ratcatcher - Everybody Move!",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "When you use the Knockback maneuver, you can target one additional creature of your size or two additional smaller creatures."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Mage Hunter - Arcane Dampening",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "When resisting potencies from magic abilities, your chacteristic scores are considered to be 1 higher than usual."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Unstoppable - Furious Charge",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "When you use the Charge action, your strike made as part of that action gains a damage bonus equal to the number of squares you moved as part of the charge."
         }
       ]
     }
