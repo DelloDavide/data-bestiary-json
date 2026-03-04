@@ -93,7 +93,22 @@
       "target": "All enemies",
       "effects": [
         {
-          "effect": "Each target reduces their potencies by 1. \n\nOnce as a free maneuver on each of you turns, you can spend 1 discipline and give your Null Field one of the following additional effects until the start of your next turn: \n-Gravitic Disruption: The first time on a turn that a target takes damage, you can slide them up to 2 squares. \n-Inertial Anchor: Any target who starts their turn in the area can't shift. \n-Synapic Break: Whenever you or an ally uses an ability against a target that has a potency effect, the potency is increased by 1. \n\nThis ability remains active even after an encounter ends. It ends only if you are dying or if you willingly end it (no action required). \n\nEnhanced Null Field: \nDuring combat, any temporary supernatural terrain effects of your level or lower are removed when your aura partially or fully overlaps with their location. Permanent supernatural terrain effects of your level or lower are temporarily negated while your aura overlaps with their location, but return when the aura no longer overlaps with them."
+          "effect": "Each target reduces their potencies by 1. Once as a free maneuver on each of you turns, you can spend 1 discipline and give your Null Field one of the following additional effects until the start of your next turn:"
+        },
+        {
+          "effect": "-Gravitic Disruption: The first time on a turn that a target takes damage, you can slide them up to 2 squares."
+        },
+        {
+          "effect": "-Inertial Anchor: Any target who starts their turn in the area can't shift."
+        },
+        {
+          "effect": "-Synapic Break: Whenever you or an ally uses an ability against a target that has a potency effect, the potency is increased by 1."
+        },
+        {
+          "effect": "This ability remains active even after an encounter ends. It ends only if you are dying or if you willingly end it (no action required)."
+        },
+        {
+          "effect": "Enhanced Null Field: During combat, any temporary supernatural terrain effects of your level or lower are removed when your aura partially or fully overlaps with their location. Permanent supernatural terrain effects of your level or lower are temporarily negated while your aura overlaps with their location, but return when the aura no longer overlaps with them."
         }
       ]
     },
