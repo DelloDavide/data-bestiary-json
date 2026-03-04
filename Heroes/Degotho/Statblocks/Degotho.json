@@ -18,6 +18,7 @@
     "Corruption 4",
     "Lightning 4"
   ],
+  "movement": "Walk, Disengage 2",
   "size": "1M",
   "stability": 3,
   "free_strike": 0,
