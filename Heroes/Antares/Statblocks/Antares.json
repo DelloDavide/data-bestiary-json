@@ -12,18 +12,359 @@
     "Mage’s Apprentice"
   ],
   "ev": "72",
-  "stamina": "54",
+  "stamina": "36",
   "speed": 6,
-  "movement": "Walk",
-  "size": "1M",
-  "stability": 3,
+  "movement": "Walk, Disengage 1",
+  "size": "1S",
+  "stability": 0,
   "free_strike": 11,
-  "might": 5,
-  "agility": 4,
-  "reason": 5,
-  "intuition": 5,
-  "presence": 4,
+  "might": -1,
+  "agility": 1,
+  "reason": 4,
+  "intuition": 1,
+  "presence": 2,
   "features": [
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Hurl Element",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "usage": "Main Action (can be used as a ranged Free Strike)",
+      "distance": "Ranged 10",
+      "target": "1 creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 4:",
+          "tier1": "7 damage",
+          "tier2": "9 damage",
+          "tier3": "11 damage"
+        },
+        {
+          "effect": "When you make this strike, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Grasp of Beyond",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike",
+        "Void"
+      ],
+      "usage": "Main Action (Signature)",
+      "distance": "Melee 1",
+      "target": "1 creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 4:",
+          "tier1": "8 damage",
+          "tier2": "11 damage",
+          "tier3": "14 damage"
+        },
+        {
+          "effect": "You can teleport up to a number of squares equal to your Reason score."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Detonate Sigil",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "usage": "Main Action (Signature)",
+      "distance": "Ranged 10",
+      "target": "1 creature bearing your sigil",
+      "effects": [
+        {
+          "roll": "Power Roll + 4:",
+          "tier1": "8 damage; slide 1",
+          "tier2": "10 damage; slide 2",
+          "tier3": "12 damage; slide 3"
+        },
+        {
+          "effect": "The sigil disappears from the creature."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Viscous Fire",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Fire",
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "usage": "Main Action (Signature)",
+      "distance": "Ranged 10",
+      "target": "1 creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 4:",
+          "tier1": "8 damage; push 2",
+          "tier2": "11 damage; push 3",
+          "tier3": "13 damage; push 4"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "The Flesh, a Crucible",
+      "icon": "⚔️💥",
+      "cost": "3 Essence",
+      "keywords": [
+        "Fire",
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "usage": "Main Action",
+      "distance": "Ranged 10",
+      "target": "1 creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 4:",
+          "tier1": "11 damage",
+          "tier2": "14 damage",
+          "tier3": "17 damage"
+        },
+        {
+          "name": "Persist 1",
+          "effect": "If the target is within distance at the start of your turn, make a power roll for this ability again."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Conflagration",
+      "icon": "⚔️💥",
+      "cost": "5 Essence",
+      "keywords": [
+        "Area",
+        "Fire",
+        "Magic",
+        "Ranged"
+      ],
+      "usage": "Main Action",
+      "distance": "3 Cube within 10",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 4:",
+          "tier1": "7 damage",
+          "tier2": "9 damage",
+          "tier3": "13 damage"
+        },
+        {
+          "name": "Persist 2",
+          "effect": "At the start of your turn, you can use a maneuver to use this ability again without spending essence."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "O Flower Aid, O Earth Defend",
+      "icon": "⚔️💥",
+      "cost": "5 Essence",
+      "keywords": [
+        "Area",
+        "Earth",
+        "Green",
+        "Magic",
+        "Ranged"
+      ],
+      "usage": "Maneuver",
+      "distance": "3 Cube within 10",
+      "target": "Special",
+      "effects": [
+        {
+          "effect": "Until the start of your next turn, the area gains the following effects:"
+        },
+        {
+          "effect": "Once as a free maneuver at the start of your turn, you allow yourself and each ally in the area to spend any number of Recoveries."
+        },
+        {
+          "effect": "The area is difficult terrain for enemies."
+        },
+        {
+          "effect": "Each enemy who enters the area for the first time in a combat round or starts their turn there takes damage equal to your Reason score."
+        },
+        {
+          "name": "Persist 1",
+          "effect": "The area remains until the start of your next turn. As a maneuver, you can move the area up to 5 squares. This ability ends if the area is ever not within your line of effect."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Erase",
+      "icon": "⚔️💥",
+      "cost": "7 Essence",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike",
+        "Void"
+      ],
+      "usage": "Main Action",
+      "distance": "Ranged 10",
+      "target": "Special",
+      "effects": [
+        {
+          "roll": "Power Roll + 4:",
+          "tier1": "One creature",
+          "tier2": "Two creatures",
+          "tier3": "Three creatures"
+        },
+        {
+          "effect": "The number of creatures you target with this ability is determined by your power roll. Each target begins to fade from existence (save ends). On their first turn while fading from existence, a target takes a bane on power rolls. At the end of their first turn, they have a double bane on power rolls. At the end of their second turn, they fade from existence for 1 hour, after which they reappear in their original space or the nearest unoccupied space."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Explosive Assistance",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Fire",
+        "Magic",
+        "Ranged"
+      ],
+      "usage": "Triggered Action",
+      "distance": "Ranged 10",
+      "target": "Self or one ally",
+      "trigger": "The target force moves a creature or object",
+      "effects": [
+        {
+          "effect": "The forced movement distance gains a bonus equal to your Reason score."
+        },
+        {
+          "name": "Spend 1 Essence",
+          "effect": "The forced movement distance gains a bonus equal to twice your Reason score instead."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Return to Formlessness",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Fire",
+        "Magic",
+        "Melee"
+      ],
+      "usage": "Main Action",
+      "distance": "Melee 1",
+      "target": "1 mundane object",
+      "effects": [
+        {
+          "effect": "You heat the target and cause it to melt or combust, destroying it. If the object is larger than 1 square, then only the square of the object you touch is destroyed."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Arcane Trick",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Magic"
+      ],
+      "usage": "Main Action",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "Choose one of the following effects:"
+        },
+        {
+          "effect": "You teleport a size 1S or smaller object adjacent to you into an unoccupied space adjacent to you."
+        },
+        {
+          "effect": "Until the start of your next turn, a part of your body shoots a shower of harmless noisy sparks that light up each square adjacent to you."
+        },
+        {
+          "effect": "You ignite or snuff out (your choice) every mundane light source of 1L or smaller adjacent to you."
+        },
+        {
+          "effect": "You transform up to 1 pound of edible food you touch to make it taste delicious or disgusting."
+        },
+        {
+          "effect": "Until the start of your next turn, you make your body exude a particular odor you've smelled before. This smell can be sensed by each creature within 5 squares of you, but can't impose any condition or other drawback on those creatures."
+        },
+        {
+          "effect": "You place a small magical inscription on the surface of a mundane object you touch, or you can remove an inscription that was made by you or by another creature using Arcane Trick."
+        },
+        {
+          "effect": "You touch a size 1T object to cover it with an illusion that makes it look like a different object. Any creature who handles the object becomes aware of the illusion. The illusion ends when you stop touching the object."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Practical Magic",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "usage": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "Choose one of the following effects:"
+        },
+        {
+          "effect": "You use the Knockback maneuver, but its distance becomes the range of your Hurl Element ability, and you use Reason instead of Might for the power roll."
+        },
+        {
+          "effect": "You choose a creature within the distance of your Hurl Element ability and one of the following damage types: acid, cold, corruption, fire, lightning, poison, or sonic. That creature takes damage of the chosen type equal to your Reason score."
+        },
+        {
+          "effect": "You teleport up to a number of squares equal to your Reason score. If you choose this option, you can spend essence to teleport 1 additional square for each essence spent."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Telepathy",
+      "icon": "⚔️💥",
+      "keywords": [
+      ],
+      "usage": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "1 creature who understands a language you know",
+      "effects": [
+        {
+          "effect": "You communicate telepathically with the target. The target can respond telepathically as part of the same maneuver."
+        }
+      ]
+    },
     {
       "type": "feature",
       "feature_type": "ability",
@@ -40,10 +381,32 @@
       "target": "1 creature or object",
       "effects": [
         {
-          "roll": "Power Roll + 3:",
-          "tier1": "8 damage",
-          "tier2": "11 damage",
-          "tier3": "13 damage"
+          "roll": "Power Roll + 1:",
+          "tier1": "3 damage",
+          "tier2": "6 damage",
+          "tier3": "8 damage"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Free Strike (Ranged)",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Free Strike",
+      "distance": "Ranged 5",
+      "target": "1 creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 1:",
+          "tier1": "3 damage",
+          "tier2": "5 damage",
+          "tier3": "7 damage"
         }
       ]
     }

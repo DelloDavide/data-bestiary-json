@@ -7,11 +7,178 @@
     {
       "type": "feature",
       "feature_type": "trait",
+      "name": "Acolyte of Fire",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "You become an expert at wielding destructive flames. Your abilities that have the Fire and Magic keywords gain a +1 bonus to rolled damage. Your Hurl Element ability (see below) also gains this bonus when you use it to deal fire damage."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Disciple of Fire",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Your connection to fire allows you to protect yourself from it, even as you rip away the protections of others. You have fire immunity equal to 5 plus your level. Additionally, fire damage you deal ignores a target's fire immunity."
+        },
+        {
+          "effect": "At the start of a combat encounter, you gain a number of surges equal to your Victories. Whenever you spend a surge to deal extra damage, you can make that damage fire damage."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Mantle of Essence: Burning Grounds",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "While you have 3 or more essence and are not dying, you exude an aura of magic whose distance is equal to your Reason score. The effects within the area of the aura are based on your specialization, as shown on the Mantle of Essence Specialization Effects table. You can activate and deactivate the aura at will (no action required)."
+        },
+        {
+          "effect": "At the end of each of your turns, each enemy in the area takes fire damage equal to your Reason score."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Stuff",
       "icon": "👤",
       "effects": [
         {
           "effect": "Antares Does Stuff"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "A Conversation with Fire",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "When you spend 1 uninterrupted minute in front of a fire, you can speak the name of another creature. If that creature is willing to speak to you, their image appears in the fire, and they can see you before them in a shimmering ball of light. The two of you can speak to each other through these images as if you were together in person. As a maneuver, you or the creature can end the conversation."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Persistent Magic",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Some of your heroic abilities have a persistent effect entry. Forexample, the Instantaneous Excavation ability has an effect notedas “Persistent 1.” Whenever you use a persistent ability, you decidewhether you want to maintain it, and start doing so immediately afteryou first use the ability. If you maintain a persistent ability in combat,you reduce the amount of essence you earn at the start of your turn byan amount equal to the ability's persistent value, which enables theability's persistent effect. All your active persistent abilities end at theend of the encounter."
+        },
+        {
+          "effect": "You can't maintain any abilities that would make you earn a negative amount of essence at the start of your turn. You can stop maintaining an ability at any time (no action required)."
+        },
+        {
+          "effect": "If you maintain the same ability on several targets and the effect includes a power roll, you make that roll once and apply the same effect to all targets. A creature can't be affected by multiple instances of a persistent ability."
+        },
+        {
+          "effect": "If you take damage equal to or greater than 5 times your Reason score in one turn, you stop maintaining any persistent abilities."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Undead Influence",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Your supernatural gifts allow you to influence other undead. You gain an edge on Reason, Intuition, and Presence tests made to interact with undead creatures."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Though but Withered",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Your undead body grants you immunity to cold, corruption, lightning, and poison damage equal to your level, but you have fire weakness 5. You can't suffocate, and you don't need to eat or drink to stay alive."
+        },
+        {
+          "effect": "Additionally, when your Stamina reaches the negative of your winded value, you become inert instead of dying. You fall prone and can't stand. You continue to observe your surroundings, but you can't speak, take main actions, maneuvers, move actions, or triggered actions. While inert this way, if you take any fire damage, your body is destroyed and you die. Otherwise, after 12 hours, you regain Stamina equal to your recovery value."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Expert Sage",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Whenever you make a test as part of a crafting or research project using a skill from the lore skill group, you can make the power roll twice and use either roll."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Eidetic Memory",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Your mind is an encyclopedia, though not always an easy one to organize. When you finish a respite, choose one skill from the lore skill group that you don't have. You have that skill until you finish your next respite. Additionally, if you spend 1 uninterrupted minute or more reading any page of text, you can memorize its contents, allowing you to memorize entire books with sufficient time."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Vengeance Mark",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "As a maneuver, you place a magic sigil on a creature within 10 squares. When you place a sigil, you decide where it appears on the creature's body, and whether the sigil is visible to only you or to all creatures."
+        },
+        {
+          "effect": "You always know the direction to the exact location of a creature who bears one of your sigils and is on the same world. You can have a number of active sigils equal to your level, and can remove a sigil from a creature at will (no action required). If you already have the maximum number of sigils activated and you place a new one, your oldest sigil disappears with no other effect."
+        },
+        {
+          "effect": "Additionally, you have the Detonate Sigil signature ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Monster Bane - Beast Bane",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Creatures with the Animal keyword take a bane on strikes made against you."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Ancient Loremaster - Sussurrus Codex",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "You find a sinister book that whispers advice in a voice no one else can hear. As long as you follow the book's advice, you gain an edge on Reason tests and take a bane on Presence tests. You can stop following the book's advice at any time, but the book won't speak to you for the rest of the day."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Awakened - Telepathy",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "You gain the Telepathy ability."
         }
       ]
     }

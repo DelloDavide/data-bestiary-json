@@ -12,18 +12,317 @@
     "Laborer"
   ],
   "ev": "72",
-  "stamina": "54",
-  "speed": 6,
-  "movement": "Walk",
+  "stamina": "78",
+  "speed": 5,
+  "movement": "Walk, Disengage 2",
   "size": "1M",
-  "stability": 3,
+  "stability": 1,
   "free_strike": 11,
-  "might": 5,
-  "agility": 4,
-  "reason": 5,
-  "intuition": 5,
-  "presence": 4,
+  "might": 3,
+  "agility": 1,
+  "reason": 3,
+  "intuition": 1,
+  "presence": -1,
   "features": [
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Protective Attack",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main Action (Signature)",
+      "distance": "Melee 1",
+      "target": "1 creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "8 damage",
+          "tier2": "11 damage",
+          "tier3": "14 damage"
+        },
+        {
+          "effect": "The target is taunted until the end of their next turn."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Shield Bash",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main Action (Signature)",
+      "distance": "Melee 1",
+      "target": "1 creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "7 damage; push 1",
+          "tier2": "10 damage; push 2",
+          "tier3": "12 damage; push 3; M < 3 Prone"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Mark",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Ranged"
+      ],
+      "usage": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "1 creature",
+      "effects": [
+        {
+          "effect": "The target is marked by you until the end of the encounter, until you are dying, or until you use this ability again. You can willingly end your mark on a creature (no action required), and if another tactician marks a creature, your mark on that creature ends. When a creature marked by you is reduced to 0 Stamina, you can use a free triggered action to mark a new target within distance."
+        },
+        {
+          "effect": "While a creature marked by you is within your line of effect, you and allies within your line of effect gain an edge on power rolls made against that creature. Additionally, whenever you or any ally uses an ability to deal rolled damage to a creature marked by you, you can spend 1 focus to gain one of the following benefits as a free triggered action:"
+        },
+        {
+          "effect": "The ability deals extra damage equal to twice your Reason score."
+        },
+        {
+          "effect": "The creature dealing the damage can spend a Recovery."
+        },
+        {
+          "effect": "The creature dealing the damage can shift up to a number of squares equal to your Reason score."
+        },
+        {
+          "effect": "If you damage a creature marked by you with a melee ability, the creature is taunted by you until the end of their next turn."
+        },
+        {
+          "effect": "You can't gain more than one benefit from the same trigger."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Parry",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Melee",
+        "Weapon"
+      ],
+      "usage": "Triggered Action",
+      "distance": "Melee 2",
+      "target": "Self or one ally",
+      "trigger": "A creature deals damage to the target",
+      "effects": [
+        {
+          "effect": "You can shift 1 square. If the target is you, or if you end this shift adjacent to the target, the target takes half the damage. If the damage has any potency effect associated with it, the potency is decreased by 1."
+        },
+        {
+          "name": "Spend 1 Focus",
+          "effect": "This ability’s distance becomes Melee 1 + your Reason score, and you can shift up to a number of squares equal to your Reason score instead of 1 square."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Strike Now!",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Ranged"
+      ],
+      "usage": "Main Action",
+      "distance": "Ranged 10",
+      "target": "1 ally",
+      "effects": [
+        {
+          "effect": "The target can use a signature ability as a free triggered action."
+        },
+        {
+          "name": "Spend 5 Focus",
+          "effect": "You target two allies instead of one."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Detect the Supernatural",
+      "icon": "⚔️💥",
+      "keywords": [
+      ],
+      "usage": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "Until the end of your next turn, you know the location of any supernatural object, or any undead, construct, or creature from another world within 5 squares, even if you don't have line of effect to that object or creature. You know if you're detecting an item or a creature, and you know the nature of any creature you detect."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Determination",
+      "icon": "⚔️💥",
+      "keywords": [
+      ],
+      "usage": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "You can end the frightened, slowed, or weakened condition on yourself."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Inspiring Strike",
+      "icon": "⚔️💥",
+      "cost": "3 Focus",
+      "keywords": [
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main Action",
+      "distance": "Melee 1 or Ranged 5",
+      "target": "1 creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "6 damage; you or one ally within 10 squares can spend a Recovery",
+          "tier2": "8 damage; you or one ally within 10 squares can spend a Recovery",
+          "tier3": "11 damage; you or one ally within 10 squares can spend a Recovery, and each of you gains an edge on the next ability power roll they make in the encounter."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "No Dying on My Watch",
+      "icon": "⚔️💥",
+      "cost": "5 Focus",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Triggered Action",
+      "distance": "Ranged 5",
+      "target": "1 enemy",
+      "trigger": "The targed deals damage to an ally",
+      "effects": [
+        {
+          "effect": "You move up to your speed toward the triggering ally, ending this movement adjacent to them or in the nearest square if you can't reach an adjacent square. The triggering ally can spend a Recovery and gains 5 temporary Stamina for each enemy you came adjacent to during the move. You then make a power roll against the target."
+        },
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "R < 1, the target is frightened of the triggering ally (save ends)",
+          "tier2": "R < 2, the target is frightened of the triggering ally (save ends)",
+          "tier3": "R < 3, the target is frightened of the triggering ally (save ends)"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Now!",
+      "icon": "⚔️💥",
+      "cost": "5 Focus",
+      "keywords": [
+        "Ranged",
+        "Weapon"
+      ],
+      "usage": "Maneuver",
+      "distance": "Ranged 5",
+      "target": "Three allies",
+      "effects": [
+        {
+          "effect": "Each target can make a free strike."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Rout",
+      "icon": "⚔️💥",
+      "cost": "7 Focus",
+      "keywords": [
+      ],
+      "usage": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "Until the end of the encounter or until you are dying, whenever you or any ally deals damage to a target marked by you who has R < 2 (Average), the target is frightened of the creature who dealt the damage (save ends)."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "My Life for Yours",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "usage": "Triggered Action",
+      "distance": "Ranged 10",
+      "target": "Self or one ally",
+      "trigger": "The target starts their turn or takes damage.",
+      "effects": [
+        {
+          "effect": "You spend a Recovery and the target regains Stamina equal to your Recovery value."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Come Out to Play (1 Focus)",
+      "icon": "⚔️💥",
+      "cost": "1 Focus",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "usage": "Maneuver",
+      "distance": "5 Burst",
+      "target": "All enemies hidden from you",
+      "effects": [
+        {
+          "effect": "Each target is P < 2 (Average) taunted (EoT). You know the location of creatures taunted in this way."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Friend Catapult",
+      "icon": "⚔️💥",
+      "keywords": [
+      ],
+      "usage": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "As a maneuver, you grab a willing adjacent ally or object of your size or smaller, then vertical push that target up to a number of squares equal to twice your Might score. If a creature you push falls as a result of this movement, the effective distance of the fall is reduced by a number of squares equal to twice your Might score. When you use this perk, you can't use it again until you earn 1 or more Victories."
+        }
+      ]
+    },
     {
       "type": "feature",
       "feature_type": "ability",
@@ -41,9 +340,31 @@
       "effects": [
         {
           "roll": "Power Roll + 3:",
-          "tier1": "8 damage",
-          "tier2": "11 damage",
-          "tier3": "13 damage"
+          "tier1": "7 damage",
+          "tier2": "10 damage",
+          "tier3": "12 damage"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Free Strike (Ranged)",
+      "icon": "⚔️💥",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Free Strike",
+      "distance": "Ranged 5",
+      "target": "1 creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "5 damage",
+          "tier2": "7 damage",
+          "tier3": "9 damage"
         }
       ]
     }

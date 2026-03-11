@@ -242,11 +242,11 @@
           "effect": "You halve the damage."
         },
         {
-          "name": "Spend 1 Discipline:",
+          "name": "Spend 1 Discipline",
           "effect": "The potency of one effect associated with the damage is reduced by 1 for you."
         },
         {
-          "name": "Metakinetic Mastery:",
+          "name": "Metakinetic Mastery",
           "effect": "Whenever you use your Inertial Shield ability, you can then use the Knockback maneuver as a free triggered action."
         }
       ]

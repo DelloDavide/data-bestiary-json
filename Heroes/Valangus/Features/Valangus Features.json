@@ -7,11 +7,121 @@
     {
       "type": "feature",
       "feature_type": "trait",
-      "name": "Stuff",
+      "name": "Brawny",
       "icon": "👤",
       "effects": [
         {
-          "effect": "Valangus Does Stuff"
+          "effect": "Whenever you fail a Might test, you can lose Stamina equal to 1d6 + your level to improve the outcome of the test by one tier. You can use this perk only once per test."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Can't Take Hold",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "You ignore difficult terrain created by magic and psionic abilities. Additionally, when you are force moved by a magic or psionic ability, you reduce the forced movement by 1."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Commanding Presence",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "While you are present during a negotiation, each hero with you treats their Renown as 2 higher than usual. Additionally, each hero with you during a combat encounter has a double edge on tests made to stop combat and start a negotiation."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Melee Superiority",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Whenever you make an opportunity attack, the target's speed is reduced to 0 until the end of the current turn."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Mark Benefit",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "When a creature marked by you attempts to move or shift within distance of your melee free strike, you can use a free triggered action and spend 2 focus to make a melee free strike against that creature."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Out of Position",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, you can use a free triggered action to use your Mark ability against one enemy you have line of effect to, even if you are surprised. You can then slide the marked target up to 3 squares, ignoring stability. The target can’t be moved in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Improved Field Arsenal",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Whenever you use a signature ability from one of your equipped kits or make a free strike using a weapon from one of your equipped kits, you gain an edge."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Lie Detector",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "In response to another creature communicating information to you, you can spend a hero token to determine whether that information contained any knowing lies. If so, you know what the lies are, but not what the truth is."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Marshal - Silver Shield",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "You have a badge granted to you by your organization. While you wear it, you gain the My Life for Yours feature from the censor class. When you use that ability, you can't spend wrath unless you have the Wrath class feature."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Ratcatcher - Come Out to Play",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "You have the Come Out to Play ability, which can be paid for using the Heroic Resource of your class."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Title",
+      "name": "Elemental Dabbler (Poison) - Elemental Weapons",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Whenever you use a damage-dealing weapon ability, that ability can deal damage of the chosen type instead of its usual damage type."
         }
       ]
     }
