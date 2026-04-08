@@ -1,0 +1,13 @@
+{
+  "type": "skillblock",
+  "name": "Vel'drotha's Skills",
+  "flavor": "Vel'drotha Has the following Skills:",
+  "categories": [
+    {
+      "category": "Retainer Skill",
+      "skills": [
+        "None"
+      ]
+    }
+  ]
+}

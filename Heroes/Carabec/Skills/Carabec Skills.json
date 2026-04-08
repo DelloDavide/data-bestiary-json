@@ -1,0 +1,13 @@
+{
+  "type": "skillblock",
+  "name": "Carabec's Skills",
+  "flavor": "Carabec Has the following Skills:",
+  "categories": [
+    {
+      "category": "Retainer Skill",
+      "skills": [
+        "None"
+      ]
+    }
+  ]
+}

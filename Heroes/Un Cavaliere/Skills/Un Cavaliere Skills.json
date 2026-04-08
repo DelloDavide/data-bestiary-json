@@ -1,0 +1,13 @@
+{
+  "type": "skillblock",
+  "name": "Un Cavaliere's Skills",
+  "flavor": "Un Cavaliere Has the following Skills:",
+  "categories": [
+    {
+      "category": "Retainer Skill",
+      "skills": [
+        "None"
+      ]
+    }
+  ]
+}
