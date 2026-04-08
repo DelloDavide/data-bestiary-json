@@ -1,0 +1,42 @@
+{
+  "type": "skillblock",
+  "name": "Degotho's Skills",
+  "flavor": "Degotho Has the following Skills:",
+  "categories": [
+    {
+      "category": "Crafting Skills",
+      "types": [
+        "Blacksmithing"
+      ]
+    },
+    {
+      "category": "Exploration Skills",
+      "types": [
+        "Endurance",
+        "Heal",
+        "Lift",
+        "Navigate"
+      ]
+    },
+    {
+      "category": "Interpersonal Skills",
+      "types": [
+        "Lead",
+        "Read Person"
+      ]
+    },
+    {
+      "category": "Intrigue Skills",
+      "types": [
+        "Search",
+        "Track"
+      ]
+    },
+    {
+      "category": "Lore Skills",
+      "types": [
+        "Nature"
+      ]
+    }
+  ]
+}
