@@ -1,0 +1,38 @@
+{
+  "type": "skillblock",
+  "name": "C'eree's Skills",
+  "flavor": "C'eree Has the following Skills:",
+  "categories": [
+    {
+      "category": "Exploration Skills",
+      "skills": [
+        "Climb",
+        "Jump",
+        "Endurance",
+        "Heal"
+      ]
+    },
+    {
+      "category": "Interpersonal Skills",
+      "skills": [
+        "Read Person"
+      ]
+    },
+    {
+      "category": "Intrigue Skills",
+      "skills": [
+        "Disguise",
+        "Sneak"
+      ]
+    },
+    {
+      "category": "Lore Skills",
+      "skills": [
+        "Psionics",
+        "Nature",
+        "Monsters",
+        "Timescape"
+      ]
+    }
+  ]
+}

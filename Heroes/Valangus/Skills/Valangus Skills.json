@@ -1,0 +1,38 @@
+{
+  "type": "skillblock",
+  "name": "Valangus's Skills",
+  "flavor": "Valangus Has the following Skills:",
+  "categories": [
+    {
+      "category": "Crafting Skills",
+      "skills": [
+        "Carpentry"
+      ]
+    },
+    {
+      "category": "Exploration Skills",
+      "skills": [
+        "Climb",
+        "Endurance",
+        "Gymnastics",
+        "Heal",
+        "Jump",
+        "Lift"
+      ]
+    },
+    {
+      "category": "Interpersonal Skills",
+      "skills": [
+        "Lead",
+        "Read Person"
+      ]
+    },
+    {
+      "category": "Lore Skills",
+      "skills": [
+        "Rumors",
+        "Strategy"
+      ]
+    }
+  ]
+}

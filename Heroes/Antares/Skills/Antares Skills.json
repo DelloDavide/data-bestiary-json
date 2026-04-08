@@ -1,0 +1,38 @@
+{
+  "type": "skillblock",
+  "name": "Antares's Skills",
+  "flavor": "Antares Has the following Skills:",
+  "categories": [
+    {
+      "category": "Crafting Skills",
+      "skills": [
+        "Alchemy",
+        "Cooking"
+      ]
+    },
+    {
+      "category": "Interpersonal Skills",
+      "skills": [
+        "Gamble",
+        "Persuade"
+      ]
+    },
+    {
+      "category": "Intrigue Skills",
+      "skills": [
+        "Sabotage"
+      ]
+    },
+    {
+      "category": "Lore Skills",
+      "skills": [
+        "Criminal Underworld",
+        "Psionics",
+        "Religion",
+        "Magic",
+        "Monsters",
+        "Timescape"
+      ]
+    }
+  ]
+}

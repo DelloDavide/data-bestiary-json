@@ -1,0 +1,33 @@
+{
+  "type": "skillblock",
+  "name": "Daron's Skills",
+  "flavor": "Daron Has the following Skills:",
+  "categories": [
+    {
+      "category": "Interpersonal Skills",
+      "skills": [
+        "Interrogate",
+        "Intimidate",
+        "Lead",
+        "Persuade"
+      ]
+    },
+    {
+      "category": "Intrigue Skills",
+      "skills": [
+        "Track"
+      ]
+    },
+    {
+      "category": "Lore Skills",
+      "skills": [
+        "Culture",
+        "Monsters",
+        "Religion",
+        "Society",
+        "Timescape"
+
+      ]
+    }
+  ]
+}
