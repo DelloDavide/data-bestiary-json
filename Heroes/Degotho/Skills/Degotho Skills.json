@@ -5,13 +5,13 @@
   "categories": [
     {
       "category": "Crafting Skills",
-      "types": [
+      "skills": [
         "Blacksmithing"
       ]
     },
     {
       "category": "Exploration Skills",
-      "types": [
+      "skills": [
         "Endurance",
         "Heal",
         "Lift",
@@ -20,21 +20,21 @@
     },
     {
       "category": "Interpersonal Skills",
-      "types": [
+      "skills": [
         "Lead",
         "Read Person"
       ]
     },
     {
       "category": "Intrigue Skills",
-      "types": [
+      "skills": [
         "Search",
         "Track"
       ]
     },
     {
       "category": "Lore Skills",
-      "types": [
+      "skills": [
         "Nature"
       ]
     }
