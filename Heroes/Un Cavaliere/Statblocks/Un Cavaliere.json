@@ -41,9 +41,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3:",
-          "tier1": "8 damage",
-          "tier2": "12 damage",
-          "tier3": "15 damage"
+          "tier1": "6 damage",
+          "tier2": "10 damage",
+          "tier3": "13 damage"
         },
         {
           "effect": "When a non-minion target is reduced to 0 Stamina by this Strike, it gains 1 surge."
