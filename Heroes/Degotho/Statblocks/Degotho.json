@@ -60,7 +60,7 @@
         "Magic"
       ],
       "usage": "Main Action (Signature)",
-      "distance": "Burst 1",
+      "distance": "1 Burst",
       "target": "Each enemy in the area",
       "effects": [
         {

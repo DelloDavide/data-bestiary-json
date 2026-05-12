@@ -46,17 +46,6 @@
     {
       "type": "feature",
       "feature_type": "trait",
-      "name": "Stuff",
-      "icon": "👤",
-      "effects": [
-        {
-          "effect": "Antares Does Stuff"
-        }
-      ]
-    },
-    {
-      "type": "feature",
-      "feature_type": "trait",
       "name": "A Conversation with Fire",
       "icon": "👤",
       "effects": [
