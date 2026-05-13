@@ -5,15 +5,15 @@
   "flavor": "Degotho (And his Artisan: Tairok) are doing the following projects:",
   "projects": [
     {
-      "type": "Create Object",
+      "type": "create object",
       "name": "Deadweight",
-      "progress": 18,
+      "progress": 48,
       "completion": 150
     },
     {
-      "type": "Create Armor",
+      "type": "create armor",
       "name": "Tempest I",
-      "progress": 85,
+      "progress": 125,
       "completion": 150
     }
   ]
