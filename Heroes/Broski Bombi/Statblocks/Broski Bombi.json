@@ -6,8 +6,8 @@
     "Retainer"
   ],
   "ancestry": [
-    "Humanoid", 
-    "Kobold", 
+    "Humanoid",
+    "Kobold",
     "Defender"
   ],
   "ev": "72",
