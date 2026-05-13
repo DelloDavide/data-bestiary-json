@@ -1,0 +1,19 @@
+{
+  "type": "featureblock",
+  "featureblock_type": "Features",
+  "name": "Tairok's Features",
+  "flavor": "Tairok has the following features:",
+  "features": [
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Stuff",
+      "icon": "👤",
+      "effects": [
+        {
+          "effect": "Tairok Does Stuff"
+        }
+      ]
+    }
+  ]
+}

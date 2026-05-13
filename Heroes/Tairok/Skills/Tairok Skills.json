@@ -1,0 +1,13 @@
+{
+  "type": "skillblock",
+  "name": "Tairok's Skills",
+  "flavor": "Tairok has the following Skills:",
+  "categories": [
+    {
+      "category": "Retainer Skill",
+      "skills": [
+        "None"
+      ]
+    }
+  ]
+}

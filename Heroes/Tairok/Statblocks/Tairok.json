@@ -1,0 +1,41 @@
+{
+  "type": "statblock",
+  "name": "Tairok",
+  "level": 4,
+  "roles": [
+    "Artisan"
+  ],
+  "ancestry": [
+    "Dwarf"
+  ],
+  "ev": "0",
+  "stamina": "-",
+  "speed": 0,
+  "movement": "Walk",
+  "immunities": [],
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 0,
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "features": [
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Stuff",
+      "icon": "👤",
+      "keywords": [],
+      "usage": "Main Action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "effect": "Tairok Does Stuff"
+        }
+      ]
+    }
+  ]
+}
