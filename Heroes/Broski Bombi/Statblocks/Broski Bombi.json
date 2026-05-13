@@ -57,7 +57,7 @@
       "usage": "Triggered Action",
       "distance": "Melee 1",
       "target": "The Mentor",
-      "trigger": "The target force moves a creature or object",
+      "trigger": "The mentor takes damage from a strike while within range.",
       "effects": [
         {
           "effect": "You can use this ability only once per encounter."
