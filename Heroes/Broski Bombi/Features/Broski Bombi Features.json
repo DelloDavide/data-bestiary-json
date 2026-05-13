@@ -1,0 +1,19 @@
+{
+  "type": "featureblock",
+  "featureblock_type": "Features",
+  "name": "Broski Bombi's Features",
+  "flavor": "Broski Bombi Has the following features:",
+  "features": [
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Shield, Bro?",
+      "icon": "🛡️💪😎",
+      "effects": [
+        {
+          "effect": "As long as Broski Bombi is adjacent to his mentor, both have a +1 to Stability, have cover, and provide cover to allies"
+        }
+      ]
+    }
+  ]
+}

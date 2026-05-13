@@ -1,0 +1,13 @@
+{
+  "type": "skillblock",
+  "name": "Kamish's Skills",
+  "flavor": "Kamish Has the following Skills:",
+  "categories": [
+    {
+      "category": "Retainer Skill",
+      "skills": [
+        "None"
+      ]
+    }
+  ]
+}

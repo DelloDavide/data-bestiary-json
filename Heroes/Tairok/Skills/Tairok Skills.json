@@ -4,9 +4,12 @@
   "flavor": "Tairok has the following Skills:",
   "categories": [
     {
-      "category": "Retainer Skill",
+      "category": "Crafting Skills",
       "skills": [
-        "None"
+        "Blacksmithing",
+        "Jewelry",
+        "Mechanics",
+        "Forgery"
       ]
     }
   ]

@@ -1,0 +1,73 @@
+{
+  "type": "statblock",
+  "name": "Broski Bombi",
+  "level": 4,
+  "roles": [
+    "Retainer"
+  ],
+  "ancestry": [
+    "Humanoid", 
+    "Kobold", 
+    "Defender"
+  ],
+  "ev": "72",
+  "stamina": "48",
+  "speed": 5,
+  "movement": "Walk",
+  "immunities": [],
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 5,
+  "might": 1,
+  "agility": 3,
+  "reason": -1,
+  "intuition": -1,
+  "presence": 0,
+  "features": [
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Toothpick",
+      "icon": "🪡🗡️☠️",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main Action (Signature)",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3:",
+          "tier1": "5 damage",
+          "tier2": "8 damage",
+          "tier3": "10 damage; taunted (EoT)."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Look Out!",
+      "icon": "⚠️👀💥",
+      "keywords": [
+        "Melee"
+      ],
+      "usage": "Triggered Action",
+      "distance": "Melee 1",
+      "target": "The Mentor",
+      "effects": [
+        {
+          "effect": "You can use this ability only once per encounter."
+        },
+        {
+          "Trigger": "The mentor takes damage from a strike while within range."
+        },
+        {
+          "effect": "Broski Bombi pushes the target or the attacking creature up to 2 squares (ignoring the mentor's Stability). If this moves the mentor out of range of the strike, the strike has no effect."
+        }
+      ]
+    }
+  ]
+}

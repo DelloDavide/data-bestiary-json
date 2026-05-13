@@ -16,9 +16,9 @@
   "size": "1M",
   "stability": 0,
   "free_strike": 0,
-  "might": 0,
+  "might": 1,
   "agility": 0,
-  "reason": 0,
+  "reason": 1,
   "intuition": 0,
   "presence": 0,
   "features": [
