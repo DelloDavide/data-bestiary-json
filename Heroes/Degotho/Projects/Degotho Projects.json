@@ -1,0 +1,20 @@
+{
+  "type": "projectblock",
+  "projectblock_type": "Projects",
+  "name": "Degotho's Projects",
+  "flavor": "Degotho (And his Artisan: Tairok) are doing the following projects:",
+  "projects": [
+    {
+      "type": "Create Object",
+      "name": "Deadweight",
+      "progress": 18,
+      "completion": 150
+    },
+    {
+      "type": "Create Armor",
+      "name": "Tempest I",
+      "progress": 85,
+      "completion": 150
+    }
+  ]
+}
