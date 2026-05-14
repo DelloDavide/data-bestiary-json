@@ -6,7 +6,9 @@
     "Artisan"
   ],
   "ancestry": [
-    "Dwarf"
+    "Dwarf", 
+    "Blacksmith", 
+    "Artisan"
   ],
   "ev": "0",
   "stamina": "-",
