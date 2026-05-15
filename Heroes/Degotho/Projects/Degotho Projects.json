@@ -15,12 +15,14 @@
       "type": "Craft Treasure",
       "name": "Deadweight",
       "description": "A humanoid femur coated in lead that feels impossibly heavy for its size.",
-      "progress": 18,
+      "progress": 19,
       "completion": 150,
       "status": "In Progress",
       "priority": "High",
       "owner": "Degotho",
-      "contributors": ["Tairok"],
+      "contributors": [
+        "Tairok"
+      ],
       "project_roll_characteristic": [
         "Reason",
         "Intuition"
@@ -58,7 +60,9 @@
       "status": "In Progress",
       "priority": "Medium",
       "owner": "Degotho",
-      "contributors": ["Tairok"],
+      "contributors": [
+        "Tairok"
+      ],
       "project_roll_characteristic": [
         "Reason",
         "Intuition"
