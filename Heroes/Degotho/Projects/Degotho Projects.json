@@ -2,19 +2,91 @@
   "type": "projectblock",
   "projectblock_type": "Projects",
   "name": "Degotho's Projects",
-  "flavor": "Degotho (And his Artisan: Tairok) are doing the following projects:",
+  "flavor": "Degotho (and his Artisan: Tairok) are working on the following projects.",
+  "owner": "Degotho",
+  "party": "Milizia Di Taed",
+  "campaign": "Milizia Di Taed",
+  "chapter": "Downtime - Milizia Di Taed",
+  "notes": [
+    "Tairok can contribute project rolls during downtime."
+  ],
   "projects": [
     {
-      "type": "create object",
+      "type": "Craft Treasure",
       "name": "Deadweight",
-      "progress": 48,
-      "completion": 150
+      "description": "A humanoid femur coated in lead that feels impossibly heavy for its size.",
+      "progress": 18,
+      "completion": 150,
+      "status": "In Progress",
+      "priority": "High",
+      "owner": "Degotho",
+      "contributors": ["Tairok"],
+      "project_roll_characteristic": [
+        "Reason",
+        "Intuition"
+      ],
+      "item_prerequisite": [
+        "One humanoid femur",
+        "One bar of lead laced with starmetal"
+      ],
+      "project_source": "Texts or lore in Caelian",
+      "reward": "Deadweight",
+      "notes": [
+        "While holding Deadweight, the wielder falls twice as fast.",
+        "The wielder takes +1 damage per square fallen, up to 75 total damage.",
+        "If the wielder falls 5 or more squares, they can make a melee free strike during the fall."
+      ],
+      "tags": [
+        "magic",
+        "weapon",
+        "treasure",
+        "gravity",
+        "crafting"
+      ],
+      "started_at": "2026-05-10T18:00:00Z",
+      "last_progress_at": "2026-05-15T08:00:00Z",
+      "auto_complete": false,
+      "hidden": false,
+      "icon": "hammer"
     },
     {
-      "type": "create armor",
+      "type": "Imbue Armor",
       "name": "Tempest I",
-      "progress": 125,
-      "completion": 150
+      "description": "Infusing armor with the essence of a storm.",
+      "progress": 85,
+      "completion": 150,
+      "status": "In Progress",
+      "priority": "Medium",
+      "owner": "Degotho",
+      "contributors": ["Tairok"],
+      "project_roll_characteristic": [
+        "Reason",
+        "Intuition"
+      ],
+      "item_prerequisite": [
+        "A strip of starmetal struck by lightning"
+      ],
+      "project_source": "Texts or lore in Ullorvic",
+      "reward": "Tempest I Armor Enhancement",
+      "notes": [
+        "As a maneuver, the armor is infused with storm essence.",
+        "The first adjacent creature to damage the wearer before the end of the next turn takes lightning damage equal to the highest characteristic score.",
+        "The triggering creature can be pushed 1 square."
+      ],
+      "tags": [
+        "armor",
+        "lightning",
+        "storm",
+        "enhancement",
+        "magic"
+      ],
+      "started_at": "2026-05-11T20:00:00Z",
+      "last_progress_at": "2026-05-15T08:00:00Z",
+      "auto_complete": false,
+      "hidden": false,
+      "icon": "shield"
     }
-  ]
+  ],
+  "created_at": "2026-05-10T17:00:00Z",
+  "updated_at": "2026-05-15T08:00:00Z"
 }
