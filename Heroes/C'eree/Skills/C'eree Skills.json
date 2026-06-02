@@ -34,5 +34,19 @@
         "Timescape"
       ]
     }
+  ],
+  "languages": [
+    {
+      "name": "Caelian",
+      "description": "Common language of the World"
+    },
+    {
+      "name": "Anjali",
+      "description": "Common language of Devils and hobgoblins; Language of contract law"
+    },
+    {
+      "name": "Voll",
+      "description": "Common language of Time raiders (Githyanki)"
+    }
   ]
 }

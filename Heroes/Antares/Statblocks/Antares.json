@@ -14,6 +14,17 @@
   "ev": "72",
   "stamina": "36",
   "speed": 6,
+  "immunities": [
+    "Cold 4",
+    "Corruption 4",
+    "Lightning 4",
+    "Poison 4",
+    "Fire 9"
+  ],
+  "weaknesses": [
+    "Cold 5",
+    "Fire 5"
+  ],
   "movement": "Walk, Disengage 1",
   "size": "1S",
   "stability": 0,
@@ -23,6 +34,8 @@
   "reason": 4,
   "intuition": 1,
   "presence": 2,
+  "wealth": 1,
+  "renown": 3,
   "features": [
     {
       "type": "feature",

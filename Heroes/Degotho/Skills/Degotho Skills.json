@@ -38,5 +38,19 @@
         "Nature"
       ]
     }
+  ],
+  "languages": [
+    {
+      "name": "Caelian",
+      "description": "Common language of the World"
+    },
+    {
+      "name": "The First Language / Vastariax / Kethaic",
+      "description": "Common language of Dragons, Dragon knights, Elder dragons and Kobolds; Language of magic"
+    },
+    {
+      "name": "Anjali",
+      "description": "Common language of Devils and hobgoblins; Language of contract law"
+    }
   ]
 }

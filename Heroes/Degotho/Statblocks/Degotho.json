@@ -27,6 +27,8 @@
   "reason": 1,
   "intuition": 1,
   "presence": -1,
+  "wealth": 1,
+  "renown": 5,
   "features": [
     {
       "type": "feature",

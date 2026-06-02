@@ -34,5 +34,19 @@
         "Timescape"
       ]
     }
+  ],
+  "languages": [
+    {
+      "name": "Caelian",
+      "description": "Common language of the World"
+    },
+    {
+      "name": "Axiomatic",
+      "description": "Common language of Memonek; language of the timescape by trade"
+    },
+    {
+      "name": "Vaniric",
+      "description": "Common language of Olothec, trolls and voiceless talkers; Common language of the World Below"
+    }
   ]
 }

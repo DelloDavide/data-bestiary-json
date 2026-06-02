@@ -23,6 +23,8 @@
   "reason": 5,
   "intuition": 5,
   "presence": 4,
+  "wealth": 2,
+  "renown": 3,
   "features": [
     {
       "type": "feature",
