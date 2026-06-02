@@ -6,6 +6,26 @@
   "features": [
     {
       "type": "feature",
+      "feature_type": "Tactician Feature",
+      "name": "Resource Gains",
+      "icon": "⭐➕📈",
+      "effects": [
+        {
+          "effect": "Your resource is Focus."
+        },
+        {
+          "effect": "Start of your turn: +2 Focus"
+        },
+        {
+          "effect": "The first time each round that you or an ally damages a target you have marked: +2 Focus"
+        },        
+        {
+          "effect": "The first time in a round that an ally within 10 squares of you uses a heroic ability: +1 Focus"
+        }
+      ]
+    },
+    {
+      "type": "feature",
       "feature_type": "trait",
       "name": "Brawny",
       "icon": "👤",

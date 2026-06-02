@@ -7,6 +7,26 @@
     {
       "type": "feature",
       "feature_type": "Fury Feature",
+      "name": "Resource Gains",
+      "icon": "⭐➕📈",
+      "effects": [
+        {
+          "effect": "Your resource is ferocity."
+        },
+        {
+          "effect": "Start of your turn: +1d3 ferocity"
+        },
+        {
+          "effect": "The first time each combat round that you take damage: +2 ferocity"
+        },        
+        {
+          "effect": "The first time you become winded or are dying in an encounter: +1d3 ferocity"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Fury Feature",
       "name": "Mighty Leaps",
       "icon": "🦘",
       "effects": [

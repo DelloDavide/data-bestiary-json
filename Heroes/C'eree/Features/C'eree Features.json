@@ -7,6 +7,26 @@
     {
       "type": "feature",
       "feature_type": "Null Feature",
+      "name": "Resource Gains",
+      "icon": "⭐➕📈",
+      "effects": [
+        {
+          "effect": "Your resource is Discipline."
+        },
+        {
+          "effect": "Start of your turn: +2 Discipline"
+        },
+        {
+          "effect": "The first time each combat round that the Director uses an ability that costs Malice: +1 Discipline"
+        },        
+        {
+          "effect": "The first time each combat round that an enemy in the area of your Null Field ability uses a main action: +2 Discipline"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Null Feature",
       "name": "Psionic Leap",
       "icon": "👤",
       "effects": [

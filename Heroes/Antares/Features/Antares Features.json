@@ -6,6 +6,34 @@
   "features": [
     {
       "type": "feature",
+      "feature_type": "Elementalist Feature",
+      "name": "Resource Gains",
+      "icon": "⭐➕📈",
+      "effects": [
+        {
+          "effect": "Your resource is Essence."
+        },
+        {
+          "effect": "Start of your turn: +2 Essence"
+        },
+        {
+          "effect": "The first time each combat round that you or a creature within 10 squares takes damage that isn’t untyped or holy damage: +2 essence."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Elementalist Feature",
+      "name": "Ward of Delightful Consequences",
+      "icon": "🛡️🎁🌟",
+      "effects": [
+        {
+          "effect": "The first time each round that you take damage, you gain 1 Surge."
+        }
+      ]
+    },
+    {
+      "type": "feature",
       "feature_type": "trait",
       "name": "Acolyte of Fire",
       "icon": "👤",
