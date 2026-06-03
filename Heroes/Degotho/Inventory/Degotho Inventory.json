@@ -1,0 +1,111 @@
+{
+  "type": "inventoryblock",
+  "inventoryblock_type": "Inventory",
+  "name": "Degotho's Inventory",
+  "flavor": "Degotho Has the following Inventory.",
+  "inventory": [
+    {
+      "name": "Blood Essence Vial",
+      "quantity": 1,
+      "notes": [
+        "13 PV di cura normalmente, ma cura 27 PV se si usa una risorsa eroica"
+      ]
+    },
+    {
+      "name": "Ampolle Esplosive 'Reagente Nero'",
+      "quantity": 2
+    },
+    {
+      "name": "Snapdragon",
+      "quantity": 1
+    },
+    {
+      "name": "Buoni per 'esperienze' gratuite al bordello",
+      "quantity": 9
+    },
+    {
+      "name": "Cuori di bestia grande",
+      "quantity": 1,
+      "notes": [
+        "Per fare Thundering I"
+      ]
+    },
+    {
+      "name": "Scaglie e Corna di drago",
+      "quantity": 2,
+      "notes": [
+        "per fare progetti: Magic Resistance I / Dragon Soul"
+      ]
+    },
+     {
+    "name": "Starmetal",
+    "quantity": 2,
+    "notes": ["Per progetti"]
+  },
+  {
+    "name": "Pezzi di licantropo",
+    "quantity": 2,
+    "notes": ["Per la pozione 'Find a Cure' (licantropia)"]
+  },
+  {
+    "name": "Dono di Radamantis",
+    "quantity": 1,
+    "notes": [
+      "Può far effettuare un Tier 1 a un nemico",
+      "Oppure far fare un Tier 3 a me stesso  "
+    ]
+  },
+  {
+    "name": "Vial of Ethereal Attack",
+    "quantity": 1
+  },
+  {
+    "name": "Mirror Token",
+    "quantity": 1
+  },
+  {
+    "name": "Thundering I Trident",
+    "quantity": 1
+  }
+  ],
+  "equipment": [
+    {
+      "name": "Light Armor",
+      "slot": "Armor"
+    },
+    {
+      "name": "Polearm, Ensnaring",
+      "slot": "Weapon/Implement"
+    },
+    {
+      "name": "Retiarius Kit",
+      "slot": "Kit"
+    },
+    {
+      "name": "Color Cloak (Yellow)",
+      "slot": "Neck",
+      "type": "Trinket",
+      "keywords": ["Magic"]
+    },
+    {
+      "name": "Hellcharger Helm",
+      "slot": "Head",
+      "type": "Trinket",
+      "keywords": ["Magic"]
+    },
+    {
+      "name": "Unbinder Boots",
+      "slot": "Feet",
+      "type": "Trinket",
+      "keywords": ["Magic"]
+    },
+    {
+      "name": "Lance of the Sundered Star",
+      "slot": "Polearm",
+      "type": "Magic Item",
+      "keywords": ["Magic"]
+    }
+  ],
+  "created_at": "2026-05-10T17:00:00Z",
+  "updated_at": "2026-06-01T20:43:58.043Z"
+}
