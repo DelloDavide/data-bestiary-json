@@ -24,11 +24,56 @@
     {
       "type": "feature",
       "feature_type": "Elementalist Feature",
+      "name": "Enchantment of Destruction",
+      "icon": "💥🔥☠️",
+      "effects": [
+        {
+          "effect": "ATTENTION! - You can only use 1 Enchantment Type Elementalist feature at a time."
+        },
+        {
+          "effect": "You gain a +1 bonus to rolled damage with magic abilities."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Elementalist Feature",
       "name": "Ward of Delightful Consequences",
       "icon": "🛡️🎁🌟",
       "effects": [
         {
+          "effect": "ATTENTION! - You can only use 1 Ward Type Elementalist feature at a time."
+        },
+        {
           "effect": "The first time each round that you take damage, you gain 1 Surge."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Elementalist Feature",
+      "name": "Ward of Surprising Reactivity",
+      "icon": "🛡️🔥⚡",
+      "effects": [
+        {
+          "effect": "ATTENTION! - You can only use 1 Ward Type Elementalist feature at a time."
+        },
+        {
+          "effect": "Whenever an adjacent creature deals damage to you, you can use a free triggered action to push that creature up to a number of squares equal to twice your Reason score."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "Elementalist Feature",
+      "name": "Ward of Excellent Protection",
+      "icon": "🛡️🌈🛡️",
+      "effects": [
+        {
+          "effect": "ATTENTION! - You can only use 1 Ward Type Elementalist feature at a time."
+        },
+        {
+          "effect": "You have immunity to acid, cold, corruption, fire, lightning, poison, or sonic damage equal to your Reason score."
         }
       ]
     },

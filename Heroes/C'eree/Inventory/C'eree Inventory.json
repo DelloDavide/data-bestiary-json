@@ -1,0 +1,29 @@
+{
+  "type": "inventoryblock",
+  "inventoryblock_type": "Inventory",
+  "name": "C'eree's Inventory",
+  "flavor": "C'eree Has the following Inventory.",
+  "inventory": [
+    {
+      "name": "None",
+      "quantity": 0,
+      "notes": []
+    }
+  ],
+  "equipment": [
+    {
+      "name": "None",
+      "slot": "Armor"
+    },
+    {
+      "name": "None",
+      "slot": "Weapon/Implement"
+    },
+    {
+      "name": "None",
+      "slot": "Kit"
+    }
+  ],
+  "created_at": "2026-05-10T17:00:00Z",
+  "updated_at": "2026-06-01T20:43:58.043Z"
+}
