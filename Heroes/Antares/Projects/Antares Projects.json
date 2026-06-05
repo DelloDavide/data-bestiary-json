@@ -9,8 +9,31 @@
   "chapter": "Downtime - Milizia Di Taed",
   "notes": [],
   "projects": [
-    
+    {
+      "type": "Build Airship",
+      "name": "",
+      "progress": 0,
+      "completion": 458,
+      "status": "In Progress",
+      "priority": "Medium",
+      "contributors": [
+        "ss"
+      ],
+      "notes": [
+        "sss"
+      ],
+      "tags": [
+        "ss"
+      ],
+      "auto_complete": false,
+      "hidden": false,
+      "project_roll_characteristic": [
+        "Might"
+      ],
+      "description": "ss",
+      "project_source": "sss"
+    }
   ],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-01T20:43:58.043Z"
+  "updated_at": "2026-06-05T11:01:07.467Z"
 }
