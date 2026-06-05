@@ -8,7 +8,8 @@
       "name": "Blood Essence Vial",
       "quantity": 1,
       "notes": [
-        "13 PV di cura normalmente, ma cura 27 PV se si usa una risorsa eroica"
+        "13 PV di cura normalmente, ma cura 27 PV se si usa una risorsa eroica",
+        "a"
       ]
     },
     {
@@ -17,12 +18,7 @@
     },
     {
       "name": "Snapdragon",
-      "quantity": 1,
-      "notes": [
-        "As a maneuver, you consume 1 unit.",
-        "The next damage-dealing ability you use deals an extra 5 damage and gains a +2 bonus to the distance of any forced movement it imposes.",
-        "If the ability does not impose forced movement, you can push eachcreature targeted by the ability up to 2 squares."
-      ]
+      "quantity": 1
     },
     {
       "name": "Buoni per 'esperienze' gratuite al bordello",
@@ -124,5 +120,5 @@
     }
   ],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-05T09:29:05.048Z"
+  "updated_at": "2026-06-05T09:52:09.448Z"
 }
