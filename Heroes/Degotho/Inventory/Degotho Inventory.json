@@ -8,8 +8,7 @@
       "name": "Blood Essence Vial",
       "quantity": 1,
       "notes": [
-        "13 PV di cura normalmente, ma cura 27 PV se si usa una risorsa eroica",
-        "a"
+        "13 PV di cura normalmente, ma cura 27 PV se si usa una risorsa eroica"
       ]
     },
     {
@@ -120,5 +119,5 @@
     }
   ],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-05T09:52:09.448Z"
+  "updated_at": "2026-06-05T09:52:22.162Z"
 }
