@@ -33,12 +33,6 @@
         "Monsters",
         "Timescape"
       ]
-    },
-    {
-      "category": "Exploration Skills",
-      "skills": [
-        "Test"
-      ]
     }
   ],
   "languages": [
@@ -53,10 +47,6 @@
     {
       "name": "Vaniric",
       "description": "Common language of Olothec, trolls and voiceless talkers; Common language of the World Below"
-    },
-    {
-      "name": "Test",
-      "description": "Test"
     }
   ],
   "updated_at": "2026-06-05T10:43:36.428Z"
