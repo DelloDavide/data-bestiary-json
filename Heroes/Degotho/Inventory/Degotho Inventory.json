@@ -19,7 +19,9 @@
       "name": "Snapdragon",
       "quantity": 1,
       "notes": [
-        "As a maneuver, you consume 1 unit."
+        "As a maneuver, you consume 1 unit.",
+        "The next damage-dealing ability you use deals an extra 5 damage and gains a +2 bonus to the distance of any forced movement it imposes.",
+        "If the ability does not impose forced movement, you can push eachcreature targeted by the ability up to 2 squares."
       ]
     },
     {
@@ -122,5 +124,5 @@
     }
   ],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-05T09:27:43.713Z"
+  "updated_at": "2026-06-05T09:29:05.048Z"
 }
