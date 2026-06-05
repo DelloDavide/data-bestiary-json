@@ -8,16 +8,23 @@
       "name": "None",
       "quantity": 0,
       "notes": []
+    },
+    {
+      "name": "ree",
+      "quantity": 4,
+      "notes": [
+        "www"
+      ]
     }
   ],
   "equipment": [
     {
       "name": "None",
-      "slot": "Armor"
+      "slot": "Kit"
     },
     {
       "name": "None",
-      "slot": "Weapon/Implement"
+      "slot": "Kit"
     },
     {
       "name": "None",
@@ -25,5 +32,5 @@
     }
   ],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-01T20:43:58.043Z"
+  "updated_at": "2026-06-05T15:21:14.190Z"
 }
