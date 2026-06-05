@@ -1,6 +1,6 @@
 {
-  "type": "skillblock",
   "name": "Daron's Skills",
+  "type": "skillblock",
   "flavor": "Daron Has the following Skills:",
   "categories": [
     {
@@ -9,7 +9,8 @@
         "Interrogate",
         "Intimidate",
         "Lead",
-        "Persuade"
+        "Persuade",
+        "trs"
       ]
     },
     {
@@ -26,7 +27,12 @@
         "Religion",
         "Society",
         "Timescape"
-
+      ]
+    },
+    {
+      "category": "Crafting Skills",
+      "skills": [
+        "dddd"
       ]
     }
   ],
@@ -42,6 +48,11 @@
     {
       "name": "Tholl",
       "description": "Common language of Higher demons and gnolls"
+    },
+    {
+      "name": "aaaaaaa",
+      "description": "aaaa"
     }
-  ]
+  ],
+  "updated_at": "2026-06-05T15:46:11.461Z"
 }
