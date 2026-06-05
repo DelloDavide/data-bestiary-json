@@ -17,7 +17,10 @@
     },
     {
       "name": "Snapdragon",
-      "quantity": 1
+      "quantity": 1,
+      "notes": [
+        "As a maneuver, you consume 1 unit."
+      ]
     },
     {
       "name": "Buoni per 'esperienze' gratuite al bordello",
@@ -37,36 +40,40 @@
         "per fare progetti: Magic Resistance I / Dragon Soul"
       ]
     },
-     {
-    "name": "Starmetal",
-    "quantity": 2,
-    "notes": ["Per progetti"]
-  },
-  {
-    "name": "Pezzi di licantropo",
-    "quantity": 2,
-    "notes": ["Per la pozione 'Find a Cure' (licantropia)"]
-  },
-  {
-    "name": "Dono di Radamantis",
-    "quantity": 1,
-    "notes": [
-      "Può far effettuare un Tier 1 a un nemico",
-      "Oppure far fare un Tier 3 a me stesso  "
-    ]
-  },
-  {
-    "name": "Vial of Ethereal Attack",
-    "quantity": 1
-  },
-  {
-    "name": "Mirror Token",
-    "quantity": 1
-  },
-  {
-    "name": "Thundering I Trident",
-    "quantity": 1
-  }
+    {
+      "name": "Starmetal",
+      "quantity": 2,
+      "notes": [
+        "Per progetti"
+      ]
+    },
+    {
+      "name": "Pezzi di licantropo",
+      "quantity": 2,
+      "notes": [
+        "Per la pozione 'Find a Cure' (licantropia)"
+      ]
+    },
+    {
+      "name": "Dono di Radamantis",
+      "quantity": 1,
+      "notes": [
+        "Può far effettuare un Tier 1 a un nemico",
+        "Oppure far fare un Tier 3 a me stesso  "
+      ]
+    },
+    {
+      "name": "Vial of Ethereal Attack",
+      "quantity": 1
+    },
+    {
+      "name": "Mirror Token",
+      "quantity": 1
+    },
+    {
+      "name": "Thundering I Trident",
+      "quantity": 1
+    }
   ],
   "equipment": [
     {
@@ -85,27 +92,35 @@
       "name": "Color Cloak (Yellow)",
       "slot": "Neck",
       "type": "Trinket",
-      "keywords": ["Magic"]
+      "keywords": [
+        "Magic"
+      ]
     },
     {
       "name": "Hellcharger Helm",
       "slot": "Head",
       "type": "Trinket",
-      "keywords": ["Magic"]
+      "keywords": [
+        "Magic"
+      ]
     },
     {
       "name": "Unbinder Boots",
       "slot": "Feet",
       "type": "Trinket",
-      "keywords": ["Magic"]
+      "keywords": [
+        "Magic"
+      ]
     },
     {
       "name": "Lance of the Sundered Star",
       "slot": "Polearm",
       "type": "Magic Item",
-      "keywords": ["Magic"]
+      "keywords": [
+        "Magic"
+      ]
     }
   ],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-01T20:43:58.043Z"
+  "updated_at": "2026-06-05T09:27:43.713Z"
 }
