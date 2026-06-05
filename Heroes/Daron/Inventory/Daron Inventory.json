@@ -1,36 +1,29 @@
 {
-  "type": "inventoryblock",
-  "inventoryblock_type": "Inventory",
   "name": "Daron's Inventory",
+  "type": "inventoryblock",
   "flavor": "Daron Has the following Inventory.",
-  "inventory": [
-    {
-      "name": "None",
-      "quantity": 0,
-      "notes": []
-    },
-    {
-      "name": "ree",
-      "quantity": 4,
-      "notes": [
-        "www"
-      ]
-    }
-  ],
   "equipment": [
     {
       "name": "None",
-      "slot": "Kit"
+      "slot": "Armor"
     },
     {
       "name": "None",
-      "slot": "Kit"
+      "slot": "Weapon/Implement"
     },
     {
       "name": "None",
       "slot": "Kit"
     }
   ],
+  "inventory": [
+    {
+      "name": "None",
+      "notes": [],
+      "quantity": 0
+    }
+  ],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-05T15:21:14.190Z"
+  "updated_at": "2026-06-05T15:21:14.190Z",
+  "inventoryblock_type": "Inventory"
 }
