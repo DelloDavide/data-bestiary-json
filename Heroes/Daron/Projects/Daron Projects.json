@@ -11,7 +11,7 @@
     {
       "type": "Craft Treasure",
       "name": "",
-      "progress": 3,
+      "progress": 5,
       "completion": 10,
       "status": "Paused",
       "priority": "High",
@@ -37,5 +37,5 @@
     "Tests"
   ],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-05T15:47:36.382Z"
+  "updated_at": "2026-06-05T15:47:42.281Z"
 }
