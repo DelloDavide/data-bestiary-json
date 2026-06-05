@@ -1,7 +1,15 @@
 {
-  "name": "Daron's Inventory",
   "type": "inventoryblock",
+  "inventoryblock_type": "Inventory",
+  "name": "Daron's Inventory",
   "flavor": "Daron Has the following Inventory.",
+  "inventory": [
+    {
+      "name": "None",
+      "quantity": 0,
+      "notes": []
+    }
+  ],
   "equipment": [
     {
       "name": "None",
@@ -16,14 +24,6 @@
       "slot": "Kit"
     }
   ],
-  "inventory": [
-    {
-      "name": "None",
-      "notes": [],
-      "quantity": 0
-    }
-  ],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-05T15:21:14.190Z",
-  "inventoryblock_type": "Inventory"
+  "updated_at": "2026-06-05T15:45:12.786Z"
 }
