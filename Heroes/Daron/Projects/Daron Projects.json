@@ -7,35 +7,8 @@
   "party": "Milizia Di Taed",
   "campaign": "Milizia Di Taed",
   "chapter": "Downtime - Milizia Di Taed",
-  "projects": [
-    {
-      "type": "Craft Treasure",
-      "name": "",
-      "progress": 5,
-      "completion": 10,
-      "status": "Paused",
-      "priority": "High",
-      "contributors": [
-        "ac"
-      ],
-      "notes": [
-        "dddd"
-      ],
-      "tags": [
-        "as"
-      ],
-      "auto_complete": false,
-      "hidden": false,
-      "project_roll_characteristic": [
-        "Agility"
-      ],
-      "project_source": "ab",
-      "description": "asdasda"
-    }
-  ],
-  "notes": [
-    "Tests"
-  ],
+  "projects": [],
+  "notes": [],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-05T15:47:42.281Z"
+  "updated_at": "2026-06-05T15:48:06.889Z"
 }
