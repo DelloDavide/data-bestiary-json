@@ -9,8 +9,7 @@
         "Interrogate",
         "Intimidate",
         "Lead",
-        "Persuade",
-        "trs"
+        "Persuade"
       ]
     },
     {
@@ -28,12 +27,6 @@
         "Society",
         "Timescape"
       ]
-    },
-    {
-      "category": "Crafting Skills",
-      "skills": [
-        "dddd"
-      ]
     }
   ],
   "languages": [
@@ -48,11 +41,7 @@
     {
       "name": "Tholl",
       "description": "Common language of Higher demons and gnolls"
-    },
-    {
-      "name": "aaaaaaa",
-      "description": "aaaa"
     }
   ],
-  "updated_at": "2026-06-05T15:46:11.461Z"
+  "updated_at": "2026-06-05T15:46:47.344Z"
 }
