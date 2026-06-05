@@ -13,7 +13,7 @@
       "type": "Build Or Repair Road",
       "name": "Strada Da Tull a Berkley",
       "description": "Costruzione di una strada che collega Tull a Berkley Direttamente.",
-      "progress": 190,
+      "progress": 189,
       "completion": 250,
       "status": "In Progress",
       "priority": "High",
@@ -41,7 +41,7 @@
         "Settlement"
       ],
       "started_at": "2026-06-04T00:00:00Z",
-      "last_progress_at": "2026-06-05T07:24:14.989Z",
+      "last_progress_at": "2026-06-05T07:24:34.284Z",
       "auto_complete": false,
       "hidden": false,
       "icon": "🗺️"
@@ -76,12 +76,12 @@
         "Crafting"
       ],
       "started_at": "2026-06-04T00:00:00Z",
-      "last_progress_at": "2026-06-05T07:24:14.989Z",
+      "last_progress_at": "2026-06-05T07:24:34.284Z",
       "auto_complete": false,
       "hidden": false,
       "icon": "🛡️"
     }
   ],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-05T07:24:14.989Z"
+  "updated_at": "2026-06-05T07:24:34.284Z"
 }
