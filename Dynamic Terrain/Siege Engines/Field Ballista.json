@@ -111,8 +111,20 @@
         {
           "name": "Chain Bolt",
           "cost": "+2 EV",
-          "effect": "The field ballista's bolts are set with heavy chains that wrap around targets. The **Chain Bolt** ability replaces **Release Bolt**, and the field ballista gains the **Crank the Chain** ability.\n🏹 **Chain Bolt**\n| **- - Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |\n| ------------------------------ | ----------------------------------: |\n| **📏 Ranged 20**               |       **🎯 One creature or object** |"
-        },
+          "effect": "The field ballista's bolts are set with heavy chains that wrap around targets. The **Chain Bolt** ability replaces **Release Bolt**, and the field ballista gains the **Crank the Chain** ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Chain Bolt",
+      "icon": "🏹",
+      "keywords": ["Ranged", "Strike", "Weapon"],
+      "usage": "Main action (Adjacent creature)",
+      "distance": "Ranged 20",
+      "target": "One creature or object",
+      "effects": [
         {
           "roll": "Power Roll + 2",
           "tier1": "4 damage",
@@ -121,17 +133,25 @@
         },
         {
           "name": "Effect",
-          "effect": "This ability can't be used again until the field ballista is reloaded.\n🏹 **Crank the Chain**\n| **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |\n| -------------------------- | ----------------------------------: |\n| **📏 Ranged 20**           |                 **🎯 One creature** |"
-        },
-        {
-          "name": "Special",
-          "effect": "The target must be slowed by the field ballista."
-        },
+          "effect": "This ability can't be used again until the field ballista is reloaded."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Crank the Chain",
+      "icon": "🏹",
+      "keywords": ["Ranged", "Strike", "Weapon"],
+      "usage": "Main action (Adjacent creature)",
+      "distance": "Ranged 20",
+      "target": "One creature",
+      "effects": [
         {
           "roll": "Power Roll + 2",
           "tier1": "Pull 1",
-          "tier2": "Pull",
-          "tier3": "3 Pull 5"
+          "tier2": "Pull 3",
+          "tier3": "Pull 5"
         },
         {
           "name": "Effect",
