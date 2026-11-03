@@ -1,6 +1,8 @@
 {
   "type": "statblock",
   "name": "Degotho",
+  "victories": 0,
+  "experience_points": 0,
   "level": 4,
   "roles": [
     "Hero"

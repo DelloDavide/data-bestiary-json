@@ -2,6 +2,8 @@
   "type": "statblock",
   "name": "Antares",
   "level": 4,
+  "victories": 0,
+  "experience_points": 0,
   "roles": [
     "Hero"
   ],
