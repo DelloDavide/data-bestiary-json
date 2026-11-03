@@ -1,8 +1,6 @@
 {
-  "type": "statblock",
   "name": "Degotho",
-  "victories": 0,
-  "experience_points": 0,
+  "type": "statblock",
   "level": 4,
   "roles": [
     "Hero"
@@ -15,11 +13,11 @@
   ],
   "ev": "72",
   "stamina": "54",
-  "speed": 6,
   "immunities": [
     "Corruption 4",
     "Lightning 4"
   ],
+  "speed": 6,
   "movement": "Walk, Disengage 2",
   "size": "1M",
   "stability": 3,
@@ -33,16 +31,16 @@
   "renown": 5,
   "features": [
     {
+      "name": "Brutal Slam",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Brutal Slam",
       "icon": "💪💥",
+      "usage": "Main Action (Signature)",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action (Signature)",
       "distance": "Melee 2",
       "target": "1 creature or object",
       "effects": [
@@ -55,15 +53,15 @@
       ]
     },
     {
+      "name": "Draconic Pride",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Draconic Pride",
       "icon": "🐲🦁",
+      "usage": "Main Action (Signature)",
       "keywords": [
         "Area",
         "Magic"
       ],
-      "usage": "Main Action (Signature)",
       "distance": "1 Burst",
       "target": "Each enemy in the area",
       "effects": [
@@ -76,16 +74,16 @@
       ]
     },
     {
+      "name": "Net And Stab",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Net And Stab",
       "icon": "🕸️🔱",
+      "usage": "Main Action (Signature)",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action (Signature)",
       "distance": "Melee 2",
       "target": "1 creature",
       "effects": [
@@ -98,17 +96,17 @@
       ]
     },
     {
+      "name": "Your Entrails Are Your Extrails!",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Your Entrails Are Your Extrails!",
       "icon": "🔪🫁🩸",
+      "usage": "Main Action",
       "cost": "3 Ferocity",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action",
       "distance": "Melee 2",
       "target": "1 creature or object",
       "effects": [
@@ -124,13 +122,13 @@
       ]
     },
     {
+      "name": "Make Peace With Your God!",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Make Peace With Your God!",
       "icon": "⚔️🙏💀",
+      "usage": "Free Maneuver",
       "cost": "5 Ferocity",
       "keywords": [],
-      "usage": "Free Maneuver",
       "distance": "Self",
       "target": "Self",
       "effects": [
@@ -140,17 +138,17 @@
       ]
     },
     {
+      "name": "Wrecking Ball",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Wrecking Ball",
       "icon": "💥🏗️",
+      "usage": "Maneuver",
       "cost": "5 Ferocity",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "usage": "Maneuver",
       "distance": "Self",
       "target": "Self; see below",
       "effects": [
@@ -169,17 +167,17 @@
       ]
     },
     {
+      "name": "You Are Already Dead",
       "type": "feature",
       "feature_type": "ability",
-      "name": "You Are Already Dead",
       "icon": "💀⏳",
+      "usage": "Main Action",
       "cost": "7 Ferocity",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action",
       "distance": "Melee 2",
       "target": "1 creature",
       "effects": [
@@ -193,12 +191,12 @@
       ]
     },
     {
+      "name": "Draconian Guard",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Draconian Guard",
       "icon": "🐲🛡️",
-      "keywords": [],
       "usage": "Triggered action",
+      "keywords": [],
       "distance": "Self",
       "target": "Self",
       "trigger": "You, or a creature adjacent to you, takes damage from a strike",
@@ -209,15 +207,15 @@
       ]
     },
     {
+      "name": "Lines of Force",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Lines of Force",
       "icon": "🧲⚡",
+      "usage": "Triggered action",
       "keywords": [
         "Magic",
         "Melee"
       ],
-      "usage": "Triggered action",
       "distance": "Melee 1",
       "target": "Self or 1 creature",
       "trigger": "The target would be force moved.",
@@ -232,17 +230,17 @@
       ]
     },
     {
+      "name": "Free Strike (Melee)",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Free Strike (Melee)",
       "icon": "⚔️💥",
+      "usage": "Free Strike",
       "keywords": [
         "Charge",
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "usage": "Free Strike",
       "distance": "Melee 2",
       "target": "1 creature or object",
       "effects": [
@@ -255,16 +253,16 @@
       ]
     },
     {
+      "name": "Free Strike (Ranged)",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Free Strike (Ranged)",
       "icon": "🏹💥",
+      "usage": "Free Strike",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "usage": "Free Strike",
       "distance": "Ranged 5",
       "target": "1 creature or object",
       "effects": [
@@ -276,5 +274,7 @@
         }
       ]
     }
-  ]
+  ],
+  "victories": 3,
+  "experience_points": 54
 }
