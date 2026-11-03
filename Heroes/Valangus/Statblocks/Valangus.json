@@ -1,16 +1,14 @@
 {
-  "type": "statblock",
   "name": "Valangus",
-  "victories": 0,
-  "experience_points": 0,
+  "type": "statblock",
   "level": 4,
   "roles": [
     "Hero"
   ],
   "ancestry": [
-    "Human", 
-    "Tactician", 
-    "Vanguard", 
+    "Human",
+    "Tactician",
+    "Vanguard",
     "Laborer"
   ],
   "ev": "72",
@@ -29,16 +27,16 @@
   "renown": 3,
   "features": [
     {
+      "name": "Protective Attack",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Protective Attack",
       "icon": "⚔️💥",
+      "usage": "Main Action (Signature)",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action (Signature)",
       "distance": "Melee 1",
       "target": "1 creature",
       "effects": [
@@ -54,16 +52,16 @@
       ]
     },
     {
+      "name": "Shield Bash",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Shield Bash",
       "icon": "⚔️💥",
+      "usage": "Main Action (Signature)",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action (Signature)",
       "distance": "Melee 1",
       "target": "1 creature",
       "effects": [
@@ -76,14 +74,14 @@
       ]
     },
     {
+      "name": "Mark",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Mark",
       "icon": "⚔️💥",
+      "usage": "Maneuver",
       "keywords": [
         "Ranged"
       ],
-      "usage": "Maneuver",
       "distance": "Ranged 10",
       "target": "1 creature",
       "effects": [
@@ -111,15 +109,15 @@
       ]
     },
     {
+      "name": "Parry",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Parry",
       "icon": "⚔️💥",
+      "usage": "Triggered Action",
       "keywords": [
         "Melee",
         "Weapon"
       ],
-      "usage": "Triggered Action",
       "distance": "Melee 2",
       "target": "Self or one ally",
       "trigger": "A creature deals damage to the target",
@@ -134,14 +132,14 @@
       ]
     },
     {
+      "name": "Strike Now!",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Strike Now!",
       "icon": "⚔️💥",
+      "usage": "Main Action",
       "keywords": [
         "Ranged"
       ],
-      "usage": "Main Action",
       "distance": "Ranged 10",
       "target": "1 ally",
       "effects": [
@@ -155,13 +153,12 @@
       ]
     },
     {
+      "name": "Detect the Supernatural",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Detect the Supernatural",
       "icon": "⚔️💥",
-      "keywords": [
-      ],
       "usage": "Maneuver",
+      "keywords": [],
       "distance": "Self",
       "target": "Self",
       "effects": [
@@ -171,13 +168,12 @@
       ]
     },
     {
+      "name": "Determination",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Determination",
       "icon": "⚔️💥",
-      "keywords": [
-      ],
       "usage": "Maneuver",
+      "keywords": [],
       "distance": "Self",
       "target": "Self",
       "effects": [
@@ -187,10 +183,11 @@
       ]
     },
     {
+      "name": "Inspiring Strike",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Inspiring Strike",
       "icon": "⚔️💥",
+      "usage": "Main Action",
       "cost": "3 Focus",
       "keywords": [
         "Melee",
@@ -198,7 +195,6 @@
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action",
       "distance": "Melee 1 or Ranged 5",
       "target": "1 creature or object",
       "effects": [
@@ -211,17 +207,17 @@
       ]
     },
     {
+      "name": "No Dying on My Watch",
       "type": "feature",
       "feature_type": "ability",
-      "name": "No Dying on My Watch",
       "icon": "⚔️💥",
+      "usage": "Triggered Action",
       "cost": "5 Focus",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "usage": "Triggered Action",
       "distance": "Ranged 5",
       "target": "1 enemy",
       "trigger": "The targed deals damage to an ally",
@@ -238,16 +234,16 @@
       ]
     },
     {
+      "name": "Now!",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Now!",
       "icon": "⚔️💥",
+      "usage": "Maneuver",
       "cost": "5 Focus",
       "keywords": [
         "Ranged",
         "Weapon"
       ],
-      "usage": "Maneuver",
       "distance": "Ranged 5",
       "target": "Three allies",
       "effects": [
@@ -257,14 +253,13 @@
       ]
     },
     {
+      "name": "Rout",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Rout",
       "icon": "⚔️💥",
-      "cost": "7 Focus",
-      "keywords": [
-      ],
       "usage": "Maneuver",
+      "cost": "7 Focus",
+      "keywords": [],
       "distance": "Self",
       "target": "Self",
       "effects": [
@@ -274,15 +269,15 @@
       ]
     },
     {
+      "name": "My Life for Yours",
       "type": "feature",
       "feature_type": "ability",
-      "name": "My Life for Yours",
       "icon": "⚔️💥",
+      "usage": "Triggered Action",
       "keywords": [
         "Magic",
         "Ranged"
       ],
-      "usage": "Triggered Action",
       "distance": "Ranged 10",
       "target": "Self or one ally",
       "trigger": "The target starts their turn or takes damage.",
@@ -293,16 +288,16 @@
       ]
     },
     {
+      "name": "Come Out to Play (1 Focus)",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Come Out to Play (1 Focus)",
       "icon": "⚔️💥",
+      "usage": "Maneuver",
       "cost": "1 Focus",
       "keywords": [
         "Area",
         "Magic"
       ],
-      "usage": "Maneuver",
       "distance": "5 Burst",
       "target": "All enemies hidden from you",
       "effects": [
@@ -312,13 +307,12 @@
       ]
     },
     {
+      "name": "Friend Catapult",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Friend Catapult",
       "icon": "⚔️💥",
-      "keywords": [
-      ],
       "usage": "Maneuver",
+      "keywords": [],
       "distance": "Self",
       "target": "Self",
       "effects": [
@@ -328,17 +322,17 @@
       ]
     },
     {
+      "name": "Free Strike (Melee)",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Free Strike (Melee)",
       "icon": "⚔️💥",
+      "usage": "Free Strike",
       "keywords": [
         "Charge",
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "usage": "Free Strike",
       "distance": "Melee 1",
       "target": "1 creature or object",
       "effects": [
@@ -351,16 +345,16 @@
       ]
     },
     {
+      "name": "Free Strike (Ranged)",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Free Strike (Ranged)",
       "icon": "⚔️💥",
+      "usage": "Free Strike",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "usage": "Free Strike",
       "distance": "Ranged 5",
       "target": "1 creature or object",
       "effects": [
@@ -372,5 +366,7 @@
         }
       ]
     }
-  ]
+  ],
+  "victories": 3,
+  "experience_points": 50
 }
