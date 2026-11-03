@@ -25,6 +25,8 @@
   "presence": -1,
   "wealth": 1,
   "renown": 3,
+  "victories": 3,
+  "experience_points": 51,
   "features": [
     {
       "name": "Protective Attack",
@@ -366,7 +368,5 @@
         }
       ]
     }
-  ],
-  "victories": 3,
-  "experience_points": 50
+  ]
 }
