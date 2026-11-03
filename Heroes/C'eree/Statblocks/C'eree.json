@@ -1,8 +1,6 @@
 {
-  "type": "statblock",
   "name": "C'eree",
-  "victories": 0,
-  "experience_points": 0,
+  "type": "statblock",
   "level": 4,
   "roles": [
     "Hero"
@@ -10,15 +8,15 @@
   "ancestry": [
     "Time Raider",
     "Null",
-    "Metakinetic", 
+    "Metakinetic",
     "Warden"
   ],
   "ev": "72",
   "stamina": "48",
-  "speed": 8,
   "immunities": [
     "Psychic 4"
   ],
+  "speed": 8,
   "movement": "Walk, Disengage 4",
   "size": "1M",
   "stability": 0,
@@ -32,17 +30,17 @@
   "renown": 3,
   "features": [
     {
+      "name": "Phase Inversion Strike",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Phase Inversion Strike",
       "icon": "⚔️💥",
+      "usage": "Main Action (Signature)",
       "keywords": [
         "Melee",
         "Psionic",
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action (Signature)",
       "distance": "Melee 1",
       "target": "1 creature or object",
       "effects": [
@@ -58,17 +56,17 @@
       ]
     },
     {
+      "name": "Inertial Step",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Inertial Step",
       "icon": "⚔️💥",
+      "usage": "Main Action (Signature)",
       "keywords": [
         "Melee",
         "Psionic",
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action (Signature)",
       "distance": "Melee 1",
       "target": "1 creature or object",
       "effects": [
@@ -84,15 +82,15 @@
       ]
     },
     {
+      "name": "Null Field",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Null Field",
       "icon": "⚔️💥",
+      "usage": "Maneuver",
       "keywords": [
         "Area",
         "Psionic"
       ],
-      "usage": "Maneuver",
       "distance": "Aura 1",
       "target": "All enemies",
       "effects": [
@@ -117,10 +115,11 @@
       ]
     },
     {
+      "name": "Chronal Spike",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Chronal Spike",
       "icon": "⚔️💥",
+      "usage": "Main Action",
       "cost": "3 Discipline",
       "keywords": [
         "Melee",
@@ -128,7 +127,6 @@
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action",
       "distance": "Melee 1",
       "target": "1 creature or object",
       "effects": [
@@ -144,10 +142,11 @@
       ]
     },
     {
+      "name": "Arcane Disruptor",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Arcane Disruptor",
       "icon": "⚔️💥",
+      "usage": "Main Action",
       "cost": "5 Discipline",
       "keywords": [
         "Melee",
@@ -155,7 +154,6 @@
         "Strike",
         "Weapon"
       ],
-      "usage": "Main Action",
       "distance": "Melee 1",
       "target": "1 creature or object",
       "effects": [
@@ -171,15 +169,15 @@
       ]
     },
     {
+      "name": "Kinetic Shield",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Kinetic Shield",
       "icon": "⚔️💥",
+      "usage": "Maneuver",
       "cost": "5 Discipline",
       "keywords": [
         "Psionic"
       ],
-      "usage": "Maneuver",
       "distance": "Self",
       "target": "Self",
       "effects": [
@@ -195,15 +193,15 @@
       ]
     },
     {
+      "name": "Molecular Rearrangement Field",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Molecular Rearrangement Field",
       "icon": "⚔️💥",
+      "usage": "Maneuver",
       "cost": "7 Discipline",
       "keywords": [
         "Psionic"
       ],
-      "usage": "Maneuver",
       "distance": "Self",
       "target": "Self",
       "effects": [
@@ -213,13 +211,12 @@
       ]
     },
     {
+      "name": "Reorder",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Reorder",
       "icon": "⚔️💥",
-      "keywords": [
-      ],
       "usage": "Free Triggered Action",
+      "keywords": [],
       "distance": "Self",
       "target": "Self",
       "trigger": "You start your turn.",
@@ -230,14 +227,14 @@
       ]
     },
     {
+      "name": "Inertial Shield",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Inertial Shield",
       "icon": "⚔️💥",
+      "usage": "Triggered Action",
       "keywords": [
         "Psionic"
       ],
-      "usage": "Triggered Action",
       "distance": "Self",
       "target": "Self",
       "trigger": "You take damage.",
@@ -256,13 +253,12 @@
       ]
     },
     {
+      "name": "Foresight",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Foresight",
       "icon": "⚔️💥",
-      "keywords": [
-      ],
       "usage": "Triggered Action",
+      "keywords": [],
       "distance": "Self",
       "target": "Self",
       "trigger": "You are targeted with a strike",
@@ -273,17 +269,17 @@
       ]
     },
     {
+      "name": "Free Strike (Melee)",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Free Strike (Melee)",
       "icon": "⚔️💥",
+      "usage": "Free Strike",
       "keywords": [
         "Charge",
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "usage": "Free Strike",
       "distance": "Melee 1",
       "target": "1 creature or object",
       "effects": [
@@ -296,16 +292,16 @@
       ]
     },
     {
+      "name": "Free Strike (Ranged)",
       "type": "feature",
       "feature_type": "ability",
-      "name": "Free Strike (Ranged)",
       "icon": "⚔️💥",
+      "usage": "Free Strike",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "usage": "Free Strike",
       "distance": "Ranged 5",
       "target": "1 creature or object",
       "effects": [
@@ -317,5 +313,7 @@
         }
       ]
     }
-  ]
+  ],
+  "victories": 3,
+  "experience_points": 50
 }
