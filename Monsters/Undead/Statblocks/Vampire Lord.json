@@ -169,17 +169,31 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "Each target is marked for sacrifice. At the end of the round, each target who isn't dead or destroyed takes 50 corruption damage. The vampire then uses the following ability."
-        },
-        {
-          "effect": "**Wave of Blood:**\n\n| **Area, Magic** |                         **-** |\n| --------------- | ----------------------------: |\n| **📏 20 burst** | **🎯 Each enemy in the area** |"
-        },
+          "effect": "Each target is marked for sacrifice. At the end of the round, each target who isn't dead or destroyed takes 50 corruption damage. The vampire then uses the **Wave of Blood** ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Wave of Blood",
+      "icon": "☠️",
+      "ability_type": "Villain Action 3b",
+      "keywords": [
+        "Magic",
+        "Area"
+      ],
+      "usage": "-",
+      "distance": "Burst 20",
+      "target": "Each enemy in the area",
+      "effects": [
         {
           "name": "Effect",
           "effect": "Each target makes a **Might test**. This ability deals an extra 5 damage for each creature killed by the Sacrifice villain action.",
-          "tier1": "11 corruption damage",
-          "tier2": "8 corruption damage",
-          "tier3": "2 corruption damage"
+          "roll": "Power Roll + 5",
+          "tier1": "2 damage; M < 3 6 corruption damage",
+          "tier2": "7 damage; M < 4 6 corruption damage",
+          "tier3": "10 damage; M < 5 6 corruption damage"
         }
       ]
     }
