@@ -7,22 +7,16 @@
   "party": "Milizia Di Taed",
   "campaign": "Milizia Di Taed",
   "chapter": "Downtime - Milizia Di Taed",
-  "notes": [
-    "Tairok can contribute project rolls during downtime."
-  ],
   "projects": [
     {
       "type": "Craft Treasure",
       "name": "Deadweight",
-      "description": "A humanoid femur coated in lead that feels impossibly heavy for its size.",
-      "progress": 18,
+      "progress": 65,
       "completion": 150,
       "status": "In Progress",
       "priority": "High",
-      "owner": "Degotho",
-      "contributors": [
-        "Tairok"
-      ],
+      "description": "A humanoid femur coated in lead that feels impossibly heavy for its size.",
+      "project_source": "Texts or lore in Caelian",
       "project_roll_characteristic": [
         "Might",
         "Reason",
@@ -32,7 +26,12 @@
         "One humanoid femur",
         "One bar of lead laced with starmetal"
       ],
-      "project_source": "Texts or lore in Caelian",
+      "owner": "Degotho",
+      "contributors": [
+        "Tairok"
+      ],
+      "started_at": "2026-05-10T18:00:00Z",
+      "last_progress_at": "2026-06-01T20:43:58.043Z",
       "reward": "Deadweight",
       "notes": [
         "While holding Deadweight, the wielder falls twice as fast.",
@@ -46,8 +45,6 @@
         "Gravity",
         "Crafting"
       ],
-      "started_at": "2026-05-10T18:00:00Z",
-      "last_progress_at": "2026-06-01T20:43:58.043Z",
       "auto_complete": false,
       "hidden": false,
       "icon": "🔨"
@@ -55,15 +52,12 @@
     {
       "type": "Imbue Armor",
       "name": "Tempest I",
-      "description": "Infusing armor with the essence of a storm.",
       "progress": 85,
       "completion": 150,
       "status": "In Progress",
       "priority": "Medium",
-      "owner": "Degotho",
-      "contributors": [
-        "Tairok"
-      ],
+      "description": "Infusing armor with the essence of a storm.",
+      "project_source": "Texts or lore in Ullorvic",
       "project_roll_characteristic": [
         "Reason",
         "Intuition"
@@ -71,7 +65,12 @@
       "item_prerequisite": [
         "A strip of starmetal struck by lightning"
       ],
-      "project_source": "Texts or lore in Ullorvic",
+      "owner": "Degotho",
+      "contributors": [
+        "Tairok"
+      ],
+      "started_at": "2026-05-11T20:00:00Z",
+      "last_progress_at": "2026-06-01T20:43:58.043Z",
       "reward": "Tempest I Armor Enhancement",
       "notes": [
         "As a maneuver, the armor is infused with storm essence.",
@@ -85,13 +84,14 @@
         "Enhancement",
         "Magic"
       ],
-      "started_at": "2026-05-11T20:00:00Z",
-      "last_progress_at": "2026-06-01T20:43:58.043Z",
       "auto_complete": false,
       "hidden": false,
       "icon": "🛡️"
     }
   ],
+  "notes": [
+    "Tairok can contribute project rolls during downtime."
+  ],
   "created_at": "2026-05-10T17:00:00Z",
-  "updated_at": "2026-06-01T20:43:58.043Z"
+  "updated_at": "2026-11-04T22:57:57.912Z"
 }
