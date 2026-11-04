@@ -29,6 +29,8 @@
   "presence": -1,
   "wealth": 1,
   "renown": 5,
+  "victories": 0,
+  "experience_points": 57,
   "features": [
     {
       "name": "Brutal Slam",
@@ -274,7 +276,5 @@
         }
       ]
     }
-  ],
-  "victories": 3,
-  "experience_points": 54
+  ]
 }
